@@ -25,7 +25,7 @@ export default function Home() {
       {
         // About us section
       }
-      <div id="about" className="scroll-m-40 pt-20 sm:pt-40">
+      <div id="about" className="-scroll-m-44 pt-20 sm:pt-40">
         <h1 className="flex flex-col justify-center text-center text-4xl font-bold tracking-tight sm:flex-row sm:gap-x-3 sm:text-5xl">
           About Us
         </h1>
