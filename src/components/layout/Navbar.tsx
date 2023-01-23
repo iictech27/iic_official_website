@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import Logo from "@/components/core/Logo";
 import Link from "next/link";
+import MobileNav from "@/components/layout/MobileNav";
 
 const navigation = [
   { name: "About", href: "/about" },
@@ -26,7 +27,9 @@ export default function Navbar() {
             <Logo className="h-7 w-auto text-[#0A1E59]" />
           </a>
         </div>
-
+        <div className="flex lg:hidden">
+          <MobileNav navigation={navigation} />
+        </div>
         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-6">
           {navigation.map((item) => (
             <Link
