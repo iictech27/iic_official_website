@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 * {
-  @apply font-sans antialiased scroll-smooth;
+  @apply scroll-smooth font-sans antialiased;
 }
