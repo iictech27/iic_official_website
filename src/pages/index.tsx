@@ -1,9 +1,14 @@
+import Header from "@/components/core/Header";
 import Hero from "@/components/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
+      <Header
+        title="Home"
+        description="Invent. Innovate. Create. For the innovative minds."
+      />
       <Hero />
       {
         // Supported by section
