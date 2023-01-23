@@ -18,7 +18,7 @@ export default function Home() {
             alt="IIC TMSL"
             width={600}
             height={100}
-            className="object-contain"
+            className="object-contain object-center"
           />
         </div>
       </div>
