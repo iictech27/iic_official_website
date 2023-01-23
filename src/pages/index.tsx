@@ -1,6 +1,7 @@
 import Header from "@/components/core/Header";
 import Hero from "@/components/Hero";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
           competitions etc.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-y-4 sm:flex-row sm:gap-x-4">
-          <a
+          <Link
             href="/about"
             className="group inline-block rounded-md bg-white px-4 py-3 text-center text-lg font-medium leading-7 text-black shadow-sm ring-1 ring-black/20 hover:bg-black hover:text-white hover:ring-black/50 sm:py-2"
           >
@@ -56,7 +57,7 @@ export default function Home() {
             >
               ↗
             </span>
-          </a>
+          </Link>
         </div>
       </div>
       {
