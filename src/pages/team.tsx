@@ -1,5 +1,6 @@
 import Header from "@/components/core/Header";
 import Title from "@/components/core/Title";
+import LinkedIn from "@/components/logos/LinkedIn";
 import type { NextPage } from "next";
 import Image from "next/legacy/image";
 import Link from "next/link";
@@ -18,6 +19,10 @@ const TeamPage: NextPage = () => {
             Our team consists a group of passionate people who are working hard
             to make IIC TMSL a success.
           </h2>
+          <p className="mt-5 flex items-center justify-center text-center text-xs sm:text-sm">
+            Tip: Click on the Images to visit their{" "}
+            <LinkedIn className="h-3 w-auto px-1 sm:h-4" /> Profiles
+          </p>
         </div>
         <section>
           <div className="container mx-auto py-24">
