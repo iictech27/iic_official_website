@@ -6,3 +6,12 @@
 * {
   @apply scroll-smooth font-sans antialiased;
 }
+
+.aim-bg {
+    background: radial-gradient(100% 225% at 0% 0%, #de3e3e 0%, #17115c 100%),
+      radial-gradient(100% 225% at 100% 0%, #ff9040 0%, #ff0000 100%),
+      linear-gradient(180deg, #ce63b7 0%, #ed6283 100%),
+      radial-gradient(100% 120% at 75% 0%, #a74600 0%, #000000 100%),
+      linear-gradient(310deg, #0063d8 0%, #16009a 50%);
+    background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
+  }
