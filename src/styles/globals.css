@@ -15,3 +15,8 @@
     linear-gradient(310deg, #0063d8 0%, #16009a 50%);
   background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
 }
+
+
+.lightbox_img{
+    @apply rounded-xl;
+}
