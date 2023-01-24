@@ -16,7 +16,6 @@
   background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
 }
 
-
-.lightbox_img{
-    @apply rounded-xl;
+.lightbox_img {
+  @apply rounded-xl;
 }
