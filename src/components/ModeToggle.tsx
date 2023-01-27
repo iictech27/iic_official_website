@@ -32,7 +32,7 @@ export default function ModeToggle() {
                 key={modeIdx}
                 className={({ active }) =>
                   `relative cursor-default select-none py-2 pl-10 pr-4 ${
-                    active ? "bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100" : "text-gray-900 dark:text-zinc-400"
+                    active ? "bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100" : "text-zinc-900 dark:text-zinc-400"
                   }`
                 }
                 onClick={() => setTheme(`${mode.name}`)}
