@@ -12,7 +12,7 @@ const StartupPage: NextPage = () => {
       <div>
         <Title title="Startup's" />
         <div>
-          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Startup&apos;s supported by IIC TMSL.
           </h2>
         </div>
@@ -21,7 +21,7 @@ const StartupPage: NextPage = () => {
             <h2 className="mb-20 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               IIC-SMP
             </h2>
-            <p className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+            <p className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
               IICSMP is the start-up mentor-ship program of IIC-TMSL. We are
               currently working with 15+ start-ups. It is an initiative to
               support start-ups from Ideation Stage to Company Registration
@@ -38,12 +38,12 @@ const StartupPage: NextPage = () => {
               {startupList.map((startup) => (
                 <div
                   key={startup.id}
-                  className="w-full cursor-pointer rounded-xl border-2 p-4 shadow transition-shadow duration-150 ease-in-out hover:shadow-2xl sm:p-8"
+                  className="group w-full transition-all duration-200 ease-in-out cursor-pointer bg-zinc-50 hover:bg-zinc-900 dark:bg-zinc-900 dark:hover:bg-white rounded-xl border border-zinc-200 p-4 shadow hover:shadow-2xl dark:border-zinc-800 dark:hover:shadow-xl dark:hover:shadow-white/[7%] sm:p-8"
                 >
-                  <h2 className="text-left text-2xl font-bold text-zinc-900">
+                  <h2 className="text-left text-2xl font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-white dark:group-hover:text-black">
                     {startup.name}
                   </h2>
-                  <p className="mt-2 text-left text-sm leading-relaxed text-zinc-600">
+                  <p className="mt-2 text-left text-sm leading-relaxed text-zinc-600 group-hover:text-zinc-400 dark:text-zinc-500 dark:group-hover:text-zinc-600">
                     {startup.description}
                   </p>
                 </div>

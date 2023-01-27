@@ -10,7 +10,7 @@ const FacultyPage: NextPage = () => {
       <div>
         <Title title="Faculty" />
         <div>
-          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Faculty members of IIC TMSL.
           </h2>
         </div>
@@ -25,10 +25,10 @@ const FacultyPage: NextPage = () => {
                   key={director.id}
                   className="mx-auto mb-6 p-4 sm:mb-0 md:w-1/3"
                 >
-                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border shadow-md transition-all  duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all  duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
                     <Image
                       alt={director.name}
-                      className="h-56 w-56 rounded-full border object-cover object-center"
+                      className="h-56 w-56 rounded-full object-cover object-center"
                       src={director.image}
                       width={300}
                       height={300}
@@ -37,10 +37,10 @@ const FacultyPage: NextPage = () => {
                       loading="lazy"
                     />
                   </div>
-                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900 dark:text-zinc-100">
                     {director.name}
                   </h2>
-                  <p className="mt-2 text-center text-base leading-relaxed">
+                  <p className="mt-2 text-center text-base leading-relaxed text-zinc-600 dark:text-zinc-500">
                     {director.role}
                   </p>
                 </div>
@@ -59,10 +59,10 @@ const FacultyPage: NextPage = () => {
                   key={faculty.id}
                   className="mx-auto mb-6 w-full p-4 sm:mb-0 sm:w-1/3 sm:p-10"
                 >
-                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
                     <Image
                       alt={faculty.name}
-                      className="h-56 w-56 rounded-full border object-cover object-center"
+                      className="h-56 w-56 rounded-full object-cover object-center"
                       src={faculty.image}
                       width={300}
                       height={300}
@@ -71,10 +71,10 @@ const FacultyPage: NextPage = () => {
                       loading="lazy"
                     />
                   </div>
-                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900 dark:text-zinc-100">
                     {faculty.name}
                   </h2>
-                  <p className="mt-2 text-center text-base leading-relaxed">
+                  <p className="mt-2 text-center text-base leading-relaxed text-zinc-600 dark:text-zinc-500">
                     {faculty.role}
                   </p>
                 </div>

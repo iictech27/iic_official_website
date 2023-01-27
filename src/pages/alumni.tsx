@@ -12,12 +12,12 @@ const AlumniPage: NextPage = () => {
       <div>
         <Title title="Alumni" />
         <div>
-          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Alumni of IIC TMSL.
           </h2>
           <p className="mt-5 flex items-center justify-center text-center text-xs sm:text-sm">
             Tip: Click on the Images to visit their{" "}
-            <LinkedIn className="h-3 w-auto px-1 sm:h-4" /> Profiles
+            <LinkedIn className="h-3 w-auto px-1 sm:h-4 text-black dark:text-white" /> Profiles
           </p>
         </div>
 
@@ -36,7 +36,7 @@ const AlumniPage: NextPage = () => {
                     href={`https://www.linkedin.com/in/${alumni.linkedIn}`}
                     target="_blank"
                   >
-                    <div className="mx-auto aspect-square h-48 w-48 overflow-hidden rounded-full border shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                    <div className="mx-auto aspect-square h-48 w-48 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
                       <Image
                         alt={alumni.name}
                         className="h-48 w-48 rounded-full border object-cover object-center"
@@ -50,10 +50,10 @@ const AlumniPage: NextPage = () => {
                     </div>
                   </Link>
 
-                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900 dark:text-zinc-100">
                     {alumni.name}
                   </h2>
-                  <p className="mt-2 text-center text-sm leading-relaxed">
+                  <p className="mt-2 text-center text-sm leading-relaxed text-zinc-600 dark:text-zinc-500">
                     {alumni.role}
                   </p>
                 </div>

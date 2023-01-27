@@ -15,7 +15,7 @@ const TeamPage: NextPage = () => {
       <div>
         <Title title="Our Team" />
         <div>
-          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Our team consists a group of passionate people who are working hard
             to make IIC TMSL a success.
           </h2>
@@ -35,14 +35,14 @@ const TeamPage: NextPage = () => {
                   key={admin.id}
                   className="mx-auto mb-6 p-4 sm:mb-0 md:w-1/3"
                 >
-                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border shadow-md transition-all  duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all  duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
                     <Link
                       href={`https://www.linkedin.com/in/${admin.linkedIn}`}
                       target="_blank"
                     >
                       <Image
                         alt={admin.name}
-                        className="h-56 w-56 rounded-full border object-cover object-center"
+                        className="h-56 w-56 rounded-full object-cover object-center"
                         src={admin.image}
                         width={300}
                         height={300}
@@ -78,10 +78,10 @@ const TeamPage: NextPage = () => {
                     href={`https://www.linkedin.com/in/${member.linkedIn}`}
                     target="_blank"
                   >
-                    <div className="mx-auto aspect-square h-48 w-48 overflow-hidden rounded-full border shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                    <div className="mx-auto aspect-square h-48 w-48 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
                       <Image
                         alt={member.name}
-                        className="h-48 w-48 rounded-full border object-cover object-center"
+                        className="h-48 w-48 rounded-full object-cover object-center"
                         src={member.image}
                         width={200}
                         height={200}
