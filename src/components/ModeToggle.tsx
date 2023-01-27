@@ -1,13 +1,12 @@
-import { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
-import { CheckIcon, MoonIcon, SunIcon } from "@heroicons/react/20/solid";
+import { ComputerDesktopIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { useTheme } from "next-themes";
-import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
+import { Fragment, useState } from "react";
 
-const people = [{ name: "light" }, { name: "dark" }, { name: "system" }];
+const modes = [{ name: "light" }, { name: "dark" }, { name: "system" }];
 
 export default function ModeToggle() {
-  const [selected, setSelected] = useState(people[0]);
+  const [selected, setSelected] = useState(modes[0]);
   const { theme, setTheme } = useTheme();
   return (
     <Listbox value={selected} onChange={setSelected}>
@@ -28,16 +27,16 @@ export default function ModeToggle() {
           leaveTo="opacity-0"
         >
           <Listbox.Options className="absolute right-0 mt-1 max-h-60 w-28 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-            {people.map((person, personIdx) => (
+            {modes.map((mode, modeIdx) => (
               <Listbox.Option
-                key={personIdx}
+                key={modeIdx}
                 className={({ active }) =>
                   `relative cursor-default select-none py-2 pl-10 pr-4 ${
                     active ? "bg-zinc-100 text-zinc-900" : "text-gray-900"
                   }`
                 }
-                onClick={() => setTheme(`${person.name}`)}
-                value={person}
+                onClick={() => setTheme(`${mode.name}`)}
+                value={mode}
               >
                 {({ selected }) => (
                   <>
@@ -46,28 +45,28 @@ export default function ModeToggle() {
                         selected ? "font-medium" : "font-normal"
                       }`}
                     >
-                      {person.name === "light"
+                      {mode.name === "light"
                         ? "Light"
-                        : person.name === "dark"
+                        : mode.name === "dark"
                         ? "Dark"
                         : "System"}
                     </span>
-                    {person.name === "light" ? (
+                    {mode.name === "light" ? (
                       <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-zinc-600">
                         <SunIcon className="h-5 w-5" aria-hidden="true" />
                       </span>
-                    ) : person.name === "dark" ? (
+                    ) : mode.name === "dark" ? (
                       <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-zinc-600">
                         <MoonIcon className="h-5 w-5" aria-hidden="true" />
                       </span>
-                    ) : (
+                    ) : mode.name === "system" ? (
                       <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-zinc-600">
                         <ComputerDesktopIcon
                           className="h-5 w-5"
                           aria-hidden="true"
                         />
                       </span>
-                    )}
+                    ) : null}
                   </>
                 )}
               </Listbox.Option>
