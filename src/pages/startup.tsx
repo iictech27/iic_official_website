@@ -40,10 +40,10 @@ const StartupPage: NextPage = () => {
                   key={startup.id}
                   className="w-full cursor-pointer rounded-xl border-2 p-4 shadow transition-shadow duration-150 ease-in-out hover:shadow-2xl sm:p-8"
                 >
-                  <h2 className="text-left text-2xl font-bold text-gray-900">
+                  <h2 className="text-left text-2xl font-bold text-zinc-900">
                     {startup.name}
                   </h2>
-                  <p className="mt-2 text-left text-sm leading-relaxed text-gray-600">
+                  <p className="mt-2 text-left text-sm leading-relaxed text-zinc-600">
                     {startup.description}
                   </p>
                 </div>

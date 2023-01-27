@@ -37,7 +37,7 @@ const FacultyPage: NextPage = () => {
                       loading="lazy"
                     />
                   </div>
-                  <h2 className="mt-5 text-center text-xl font-bold text-gray-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
                     {director.name}
                   </h2>
                   <p className="mt-2 text-center text-base leading-relaxed">
@@ -71,7 +71,7 @@ const FacultyPage: NextPage = () => {
                       loading="lazy"
                     />
                   </div>
-                  <h2 className="mt-5 text-center text-xl font-bold text-gray-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
                     {faculty.name}
                   </h2>
                   <p className="mt-2 text-center text-base leading-relaxed">
