@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Header from "@/components/core/Header";
 import { SlideshowLightbox } from "lightbox.js-react";
 import "lightbox.js-react/dist/index.css";
 import { Autoplay, Pagination } from "swiper";
@@ -9,6 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function GalleryPage() {
   return (
     <>
+      <Header title="Gallery" description="Gallery of IIC TMSL." />
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
