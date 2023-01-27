@@ -2,6 +2,7 @@
 import Logo from "@/components/core/Logo";
 import Link from "next/link";
 import MobileNav from "@/components/layout/MobileNav";
+import ModeToggle from "../ModeToggle";
 
 const navigation = [
   { name: "About", href: "/about" },
@@ -27,7 +28,8 @@ export default function Navbar() {
             <Logo className="h-7 w-auto text-[#0A1E59]" />
           </a>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden space-x-4">
+          <ModeToggle />
           <MobileNav navigation={navigation} />
         </div>
         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-6">
@@ -42,12 +44,7 @@ export default function Navbar() {
           ))}
         </div>
         <div className="hidden lg:flex lg:min-w-0 lg:justify-end">
-          <Link
-            href="#"
-            className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-zinc-900 shadow-sm ring-1 ring-zinc-900/10 hover:ring-zinc-900/20"
-          >
-            Button
-          </Link>
+          <ModeToggle />
         </div>
       </nav>
     </div>
