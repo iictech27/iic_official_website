@@ -57,13 +57,13 @@ export default function Home() {
             >
               ↗
             </span>
-          </Link> 
+          </Link>
         </div>
       </div>
       {
         // Our aim section
       }
-      <div id="aim" className="relative py-28 sm:-scroll-m-20 sm:py-40">
+      <div id="aim" className="relative py-28 sm:-scroll-m-20 sm:py-40 sm:pb-12">
         <div className="aim-bg mx-auto max-w-6xl rounded-2xl p-8 text-white shadow-lg sm:rounded-3xl sm:px-28 sm:py-16 sm:pb-20 sm:shadow-2xl sm:shadow-zinc-400/60 dark:sm:shadow-white/[15%]">
           <div className="mx-auto max-w-4xl">
             <h1 className="pb-4 text-center text-base font-semibold tracking-tight text-zinc-100 sm:pb-10 sm:text-xl">
