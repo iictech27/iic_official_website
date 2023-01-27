@@ -19,3 +19,11 @@
 .lightbox_img {
   @apply rounded-xl;
 }
+
+.scroll-to-top {
+  @apply fixed bottom-10 right-10 z-10 cursor-pointer rounded-full border-none bg-black dark:bg-white p-2 text-white dark:text-black  drop-shadow-xl;
+}
+
+.scroll-to-top:active {
+  transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+}
