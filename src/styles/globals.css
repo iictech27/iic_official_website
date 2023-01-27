@@ -21,7 +21,7 @@
 }
 
 .scroll-to-top {
-  @apply fixed bottom-10 right-10 z-10 cursor-pointer rounded-full border-none bg-black dark:bg-white p-2 text-white dark:text-black  drop-shadow-xl;
+  @apply fixed bottom-10 right-10 z-10 cursor-pointer rounded-full border-none bg-black p-2 text-white drop-shadow-xl dark:bg-white  dark:text-black;
 }
 
 .scroll-to-top:active {
