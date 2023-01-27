@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export default function Layout({ children }: any): JSX.Element {
   return (
@@ -9,6 +10,7 @@ export default function Layout({ children }: any): JSX.Element {
           {children}
         </div>
       </main>
+      <ScrollToTop />
     </div>
   );
 }
