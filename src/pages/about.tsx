@@ -8,7 +8,7 @@ const AboutPage: NextPage = () => {
     <div>
       <Title title="About Us" />
       <div>
-        <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+        <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
           &ldquo; We want to create a vibrant local innovation ecosystem. IIC
           TMSL is the Start-up supporting Mechanism of Techno Main Salt Lake. We
           want to establish Function Ecosystem for Scouting Ideas and
@@ -26,7 +26,7 @@ const AboutPage: NextPage = () => {
             <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
               What is IIC?
             </h2>
-            <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+            <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
               Ministry of Human Resource Development (MHRD), Govt. of India has
               established <q>MHRD</q>s Innovation Cell (MIC)&apos; to
               systematically foster the culture of Innovation amongst all Higher
@@ -44,7 +44,7 @@ const AboutPage: NextPage = () => {
             <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
               Our Vision
             </h2>
-            <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+            <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
               We want to create a vibrant local innovation ecosystem. IIC TMSL
               is the Start-up supporting Mechanism of Techno Main Saltlake. We
               want to establish Function Ecosystem for Scouting Ideas and
@@ -61,7 +61,7 @@ const AboutPage: NextPage = () => {
             <h2 className="mb-6 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               Our Functions
             </h2>
-            <ol className="mx-auto ml-6 mt-8 grid list-decimal grid-cols-1 gap-y-4 gap-x-14 text-left text-lg leading-8 text-zinc-600 sm:grid-cols-2">
+            <ol className="mx-auto ml-6 mt-8 grid list-decimal grid-cols-1 gap-y-4 gap-x-14 text-left text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:grid-cols-2">
               {functionsList.map((item) => (
                 <li key={item.id}>{item.title}</li>
               ))}

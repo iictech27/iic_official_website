@@ -13,7 +13,7 @@ const ActivityPage: NextPage = () => {
       <div>
         <Title title="Initiatives" />
         <div>
-          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600">
+          <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Initiatives are the backbone of any organization. Some of the
             initiatives that we have taken up are listed below.
           </h2>
@@ -31,7 +31,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 Internship Portal
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 IIC TMSL launched an internship portal in the month of October
                 to help students for getting internships according to their
                 skillset.
@@ -43,7 +43,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 RISE
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 (Launched on: 30th October, 2019) RISE is another initiative of
                 IIC TMSL where we provide free courses to enhance the skill-set
                 on latest technology trends like AI/ML, Data Sc, Robotics etc.
@@ -72,7 +72,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 Blog
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 (January 2020 Onwards) IIC TMSL has launched IIC blog to update
                 the knowledge of the students of TMSL regarding business,
                 startup and technology. It is a great opportunity for content
@@ -86,7 +86,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 Innopedia
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 (Launched on 13th March, 2020) Innopedia, an initiative by IIC
                 TMSL, aims at making you aware of the latest advancements in
                 terms of innovations around you. The innovaters themselves would
@@ -114,7 +114,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 ENVISAGE
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 (24th-26th April, 2020) ENVISAGE is born out of the dreams and
                 aspirations of the youth who have the zest and the zeal to take
                 their future in their own hands. Supporting the growing startup
@@ -131,7 +131,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 BONDHU
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 (Launched on: 22nd April, 2020) BONDHU is an online platform
                 ideated and developed by the team of innovators at Institution’s
                 Innovation Council, Techno Main Salt Lake(Official
@@ -163,7 +163,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 Start-up Services
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 (Launched on: 25th April, 2020) IIC TMSL launched its new
                 initiative where students and people from outside the college
                 can get their idea mentored under the club. They get technical,
@@ -180,7 +180,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 EAD
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 IIT KGP in association with IIC TMSL organized Entrepreneurship
                 Awareness Drive on 19th October 2019 in Techno Main Saltlake
                 campus. More than 1000 participants had registered & 350
@@ -189,7 +189,7 @@ const ActivityPage: NextPage = () => {
               <h2 className="my-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 E-Start
               </h2>
-              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 sm:text-left sm:text-xl">
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
                 IIT KGP in association with IIC TMSL organized E-Start which is
                 a platform to validate ideas and build business models with an
                 exclusive mentorship offered by experienced entrepreneurs on

@@ -48,10 +48,10 @@ export default function MobileNav({
                   leaveTo="translate-x-full"
                 >
                   <Dialog.Panel className="pointer-events-auto w-screen max-w-md">
-                    <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl">
+                    <div className="flex h-full flex-col overflow-y-scroll bg-white shadow-xl dark:bg-zinc-900">
                       <div className="flex-1 overflow-y-auto py-6 px-8">
                         <div className="flex items-start justify-between">
-                          <Dialog.Title className="text-2xl font-bold text-zinc-900">
+                          <Dialog.Title className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">
                             Menu
                           </Dialog.Title>
                           <div className="ml-3 flex h-7 items-center">
@@ -76,7 +76,7 @@ export default function MobileNav({
                                 <Link
                                   key={item.name}
                                   href={item.href}
-                                  className="-mx-3 block rounded-lg py-4 px-3 text-2xl font-semibold leading-7 text-zinc-900 hover:bg-zinc-400/10"
+                                  className="-mx-3 block rounded-lg py-4 px-3 text-2xl font-semibold leading-7 text-zinc-900 hover:bg-zinc-400/10 dark:text-zinc-100"
                                 >
                                   {item.name}
                                 </Link>

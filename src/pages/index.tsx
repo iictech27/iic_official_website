@@ -15,7 +15,7 @@ export default function Home() {
         // Supported by section
       }
       <div className="flex flex-col pt-28 sm:pt-40">
-        <h4 className="pb-10 text-center text-sm font-bold uppercase tracking-widest text-zinc-600">
+        <h4 className="pb-10 text-center text-sm font-bold uppercase tracking-widest text-zinc-600 dark:text-zinc-500">
           Supported by
         </h4>
         <div className="mx-auto justify-center">
@@ -36,7 +36,7 @@ export default function Home() {
           About Us
         </h1>
 
-        <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-zinc-600 sm:text-xl">
+        <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-xl">
           Inspired by the objectives and vision of IIC, a MoE initiative, we
           have established IIC TMSL. This cell will be conducting various
           innovation and entrepreneurship related activities along with
@@ -46,25 +46,25 @@ export default function Home() {
           competitions etc.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-y-4 sm:flex-row sm:gap-x-4">
-          <Link
+        <Link
             href="/about"
-            className="group inline-block rounded-md bg-white px-4 py-3 text-center text-lg font-medium leading-7 text-black shadow-sm ring-1 ring-black/20 hover:bg-black hover:text-white hover:ring-black/50 sm:py-2"
+            className="group inline-block rounded-md transition-colors duration-150 ease-in-out bg-white px-4 dark:hover:text-black py-3 text-center text-lg font-medium leading-7 text-black shadow-sm ring-1 ring-black/20 dark:ring-white/40 hover:bg-black hover:text-white hover:ring-black/50 dark:bg-black dark:hover:bg-white dark:text-white sm:py-2"
           >
             Learn more{" "}
             <span
-              className="text-black group-hover:text-white"
+              className="text-black group-hover:text-white dark:group-hover:text-black dark:text-white"
               aria-hidden="true"
             >
               ↗
             </span>
-          </Link>
+          </Link> 
         </div>
       </div>
       {
         // Our aim section
       }
       <div id="aim" className="relative py-28 sm:-scroll-m-20 sm:py-40">
-        <div className="aim-bg mx-auto max-w-6xl rounded-2xl p-8 text-white shadow-lg sm:rounded-3xl sm:px-28 sm:py-16 sm:pb-20 sm:shadow-2xl">
+        <div className="aim-bg mx-auto max-w-6xl rounded-2xl p-8 text-white shadow-lg sm:rounded-3xl sm:px-28 sm:py-16 sm:pb-20 sm:shadow-2xl sm:shadow-zinc-400/60 dark:sm:shadow-white/[15%]">
           <div className="mx-auto max-w-4xl">
             <h1 className="pb-4 text-center text-base font-semibold tracking-tight text-zinc-100 sm:pb-10 sm:text-xl">
               OUR AIM
