@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -10,6 +11,7 @@ export default function Layout({ children }: any): JSX.Element {
           {children}
         </div>
       </main>
+      <Footer />
       <ScrollToTop />
     </div>
   );
