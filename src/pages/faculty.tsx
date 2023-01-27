@@ -25,7 +25,7 @@ const FacultyPage: NextPage = () => {
                   key={director.id}
                   className="mx-auto mb-6 p-4 sm:mb-0 md:w-1/3"
                 >
-                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all  duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 shadow-md transition-all duration-150  ease-in-out hover:scale-110 hover:shadow-xl active:scale-95 dark:border-zinc-800">
                     <Image
                       alt={director.name}
                       className="h-56 w-56 rounded-full object-cover object-center"
@@ -59,7 +59,7 @@ const FacultyPage: NextPage = () => {
                   key={faculty.id}
                   className="mx-auto mb-6 w-full p-4 sm:mb-0 sm:w-1/3 sm:p-10"
                 >
-                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 dark:border-zinc-800 shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95">
+                  <div className="mx-auto aspect-square h-56 w-56 overflow-hidden rounded-full border border-zinc-200 shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95 dark:border-zinc-800">
                     <Image
                       alt={faculty.name}
                       className="h-56 w-56 rounded-full object-cover object-center"

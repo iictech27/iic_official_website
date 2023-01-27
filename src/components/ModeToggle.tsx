@@ -1,5 +1,9 @@
 import { Listbox, Transition } from "@headlessui/react";
-import { ComputerDesktopIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
+import {
+  ComputerDesktopIcon,
+  MoonIcon,
+  SunIcon,
+} from "@heroicons/react/24/solid";
 import { useTheme } from "next-themes";
 import { Fragment, useState } from "react";
 
@@ -11,7 +15,7 @@ export default function ModeToggle() {
   return (
     <Listbox value={selected} onChange={setSelected}>
       <div className="relative">
-        <Listbox.Button className="relative flex cursor-default rounded-lg border shadow-sm bg-white p-1.5 text-left text-black focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white sm:text-sm">
+        <Listbox.Button className="relative flex cursor-default rounded-lg border bg-white p-1.5 text-left text-black shadow-sm focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white sm:text-sm">
           {theme === "light" ? (
             <SunIcon className="h-5 w-5" aria-hidden="true" />
           ) : theme === "dark" ? (
@@ -26,13 +30,15 @@ export default function ModeToggle() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Listbox.Options className="absolute right-0 mt-1 max-h-60 w-32 sm:w-28 overflow-auto rounded-md bg-white dark:bg-zinc-900 py-1 text-base shadow-lg ring-1 ring-black dark:ring-zinc-800 ring-opacity-5 focus:outline-none sm:text-sm">
+          <Listbox.Options className="absolute right-0 mt-1 max-h-60 w-32 overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-zinc-900 dark:ring-zinc-800 sm:w-28 sm:text-sm">
             {modes.map((mode, modeIdx) => (
               <Listbox.Option
                 key={modeIdx}
                 className={({ active }) =>
                   `relative cursor-default select-none py-2 pl-10 pr-4 ${
-                    active ? "bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100" : "text-zinc-900 dark:text-zinc-400"
+                    active
+                      ? "bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100"
+                      : "text-zinc-900 dark:text-zinc-400"
                   }`
                 }
                 onClick={() => setTheme(`${mode.name}`)}
