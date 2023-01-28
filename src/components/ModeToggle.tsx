@@ -1,17 +1,24 @@
 import { Listbox, Transition } from "@headlessui/react";
-import {
-  ComputerDesktopIcon,
-  MoonIcon,
-  SunIcon,
-} from "@heroicons/react/24/solid";
+import { ComputerDesktopIcon, MoonIcon, SunIcon } from "@heroicons/react/24/solid";
 import { useTheme } from "next-themes";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 
 const modes = [{ name: "light" }, { name: "dark" }, { name: "system" }];
 
 export default function ModeToggle() {
   const [selected, setSelected] = useState(modes[0]);
-  const { setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    if (theme === "light") {
+      setSelected(modes[0]);
+    } else if (theme === "dark") {
+      setSelected(modes[1]);
+    } else if (theme === "system") {
+      setSelected(modes[2]);
+    }
+  }, [theme]);
+
   return (
     <Listbox value={selected} onChange={setSelected}>
       <div className="relative">
