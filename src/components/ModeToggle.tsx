@@ -11,16 +11,16 @@ const modes = [{ name: "light" }, { name: "dark" }, { name: "system" }];
 
 export default function ModeToggle() {
   const [selected, setSelected] = useState(modes[0]);
-  const { theme, setTheme } = useTheme();
+  const { setTheme } = useTheme();
   return (
     <Listbox value={selected} onChange={setSelected}>
       <div className="relative">
         <Listbox.Button className="relative flex cursor-default rounded-lg border bg-white p-1.5 text-left text-black shadow-sm focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-white sm:text-sm">
-          {theme === "light" ? (
+          {selected.name === "light" ? (
             <SunIcon className="h-5 w-5" aria-hidden="true" />
-          ) : theme === "dark" ? (
+          ) : selected.name === "dark" ? (
             <MoonIcon className="h-5 w-5" aria-hidden="true" />
-          ) : theme === "system" ? (
+          ) : selected.name === "system" ? (
             <ComputerDesktopIcon className="h-5 w-5" aria-hidden="true" />
           ) : null}
         </Listbox.Button>
