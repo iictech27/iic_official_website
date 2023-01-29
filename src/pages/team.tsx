@@ -52,7 +52,7 @@ const TeamPage: NextPage = () => {
                       />
                     </Link>
                   </div>
-                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900 dark:text-zinc-100">
                     {admin.name}
                   </h2>
                   <p className="mt-2 text-center text-base leading-relaxed">
@@ -92,7 +92,7 @@ const TeamPage: NextPage = () => {
                     </div>
                   </Link>
 
-                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900">
+                  <h2 className="mt-5 text-center text-xl font-bold text-zinc-900 dark:text-zinc-100">
                     {member.name}
                   </h2>
                   <p className="mt-2 text-center text-sm leading-relaxed">
