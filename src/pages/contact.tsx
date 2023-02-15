@@ -1,10 +1,6 @@
+import FadeIn from "@/components/animation/FadeIn";
 import Header from "@/components/core/Header";
 import Title from "@/components/core/Title";
-import {
-  EnvelopeIcon,
-  MapPinIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
 import type { NextPage } from "next";
 
 const ContactPage: NextPage = () => {
@@ -13,13 +9,16 @@ const ContactPage: NextPage = () => {
       <Header title="Alumni" description="Alumni of IIC TMSL." />
       <div>
         <Title title="Contact Us" />
-        <div>
+        <FadeIn delay={0.15}>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             We are always happy to hear from you. Please feel free to contact
           </h2>
-        </div>
+        </FadeIn>
         <section className="relative text-zinc-600 dark:text-zinc-500">
-          <div className="container mx-auto flex flex-wrap px-5 py-24 sm:flex-nowrap">
+          <FadeIn
+            delay={0.6}
+            className="container mx-auto flex flex-wrap px-5 py-24 sm:flex-nowrap"
+          >
             <div className="relative flex items-end justify-start overflow-hidden rounded-lg p-10 sm:mr-10 md:w-1/2 lg:w-3/5">
               <iframe
                 width="100%"
@@ -112,10 +111,10 @@ const ContactPage: NextPage = () => {
                 type="submit"
                 className="rounded-md border-0 bg-black py-2 px-6 text-lg text-white transition-colors duration-150 ease-in-out hover:bg-zinc-700 focus:outline-none dark:bg-white dark:text-black dark:hover:bg-zinc-300"
               >
-                Button
+                Send Message
               </button>
             </div>
-          </div>
+          </FadeIn>
         </section>
       </div>
     </>

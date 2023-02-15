@@ -1,3 +1,4 @@
+import FadeIn from "@/components/animation/FadeIn";
 import Title from "@/components/core/Title";
 import CuteDog from "@/components/illustrations/CuteDog";
 import OurVision from "@/components/illustrations/OurVision";
@@ -7,7 +8,7 @@ const AboutPage: NextPage = () => {
   return (
     <div>
       <Title title="About Us" />
-      <div>
+      <FadeIn delay={0.15}>
         <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
           &ldquo; We want to create a vibrant local innovation ecosystem. IIC
           TMSL is the Start-up supporting Mechanism of Techno Main Salt Lake. We
@@ -15,10 +16,13 @@ const AboutPage: NextPage = () => {
           Pre-incubation of Ideas and want to develop better Cognitive Ability
           for TMSL Students. &rdquo;
         </h2>
-      </div>
+      </FadeIn>
 
       <section className="mx-auto max-w-5xl py-24 sm:py-40">
-        <div className="mx-auto mb-10 flex flex-col items-center pb-20 sm:flex-row">
+        <FadeIn
+          delay={0.3}
+          className="mx-auto mb-10 flex flex-col items-center pb-20 sm:flex-row"
+        >
           <div className="inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:mr-10 sm:h-96 sm:w-96">
             <CuteDog className="w-96" />
           </div>
@@ -38,8 +42,11 @@ const AboutPage: NextPage = () => {
               across selected HEIs.
             </p>
           </div>
-        </div>
-        <div className="mx-auto mb-10 flex flex-col items-center pb-20 sm:flex-row">
+        </FadeIn>
+        <FadeIn
+          delay={0.45}
+          className="mx-auto mb-10 flex flex-col items-center pb-20 sm:flex-row"
+        >
           <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
             <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
               Our Vision
@@ -55,9 +62,12 @@ const AboutPage: NextPage = () => {
           <div className="order-first inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:order-none sm:ml-10 sm:h-96 sm:w-96">
             <OurVision className="w-96" />
           </div>
-        </div>
+        </FadeIn>
         <div className="mx-auto flex flex-col sm:flex-row">
-          <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
+          <FadeIn
+            delay={0.6}
+            className="mt-6 flex-grow text-center sm:mt-0 sm:text-left"
+          >
             <h2 className="mb-6 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               Our Functions
             </h2>
@@ -66,7 +76,7 @@ const AboutPage: NextPage = () => {
                 <li key={item.id}>{item.title}</li>
               ))}
             </ol>
-          </div>
+          </FadeIn>
         </div>
       </section>
     </div>
