@@ -1,3 +1,5 @@
+import FadeIn from "@/components/animation/FadeIn";
+
 export default function Hero() {
   return (
     <div>
@@ -9,18 +11,25 @@ export default function Hero() {
         </div>
       </div>
       <div>
-        <h1 className="flex flex-col justify-center text-center text-7xl font-[800] tracking-tighter sm:gap-x-3 sm:text-[100px] lg:flex-row">
-          <span className="text-black dark:text-white">Invent.</span>
-          <span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">
-            Innovate.
-          </span>
-          <span className="text-black dark:text-white">Create.</span>
-        </h1>
-        <p className="mx-auto mt-6 max-w-3xl text-center text-xl leading-8 text-zinc-600 dark:text-zinc-500">
-          IIC TMSL provides a platform to aid in the overall development of
-          entrepreneurship and innovation culture among students.
-        </p>
-        <div className="mt-8 flex flex-col justify-center gap-y-4 sm:flex-row sm:gap-x-4">
+        <FadeIn delay={0.15}>
+          <h1 className="flex flex-col justify-center text-center text-7xl font-[800] tracking-tighter sm:gap-x-3 sm:text-[100px] lg:flex-row">
+            <span className="text-black dark:text-white">Invent.</span>
+            <span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">
+              Innovate.
+            </span>
+            <span className="text-black dark:text-white">Create.</span>
+          </h1>
+        </FadeIn>
+        <FadeIn delay={0.3}>
+          <p className="mx-auto mt-6 max-w-3xl text-center text-xl leading-8 text-zinc-600 dark:text-zinc-500">
+            IIC TMSL provides a platform to aid in the overall development of
+            entrepreneurship and innovation culture among students.
+          </p>
+        </FadeIn>
+        <FadeIn
+          delay={0.45}
+          className="mt-8 flex flex-col justify-center gap-y-4 sm:flex-row sm:gap-x-4"
+        >
           <a
             href="#"
             className="inline-block rounded-md bg-black px-4 py-3 text-center text-lg font-medium leading-7 text-white shadow-sm ring-1 ring-black/50 transition-colors duration-150 ease-in-out hover:bg-white hover:text-black hover:ring-black/20 dark:bg-white dark:text-black dark:hover:bg-zinc-900 dark:hover:text-white sm:py-2"
@@ -39,7 +48,7 @@ export default function Hero() {
               &darr;
             </span>
           </a>
-        </div>
+        </FadeIn>
       </div>
     </div>
   );
