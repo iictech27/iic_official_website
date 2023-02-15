@@ -1,3 +1,4 @@
+import FadeIn from "@/components/animation/FadeIn";
 import Header from "@/components/core/Header";
 import Title from "@/components/core/Title";
 import LinkedIn from "@/components/logos/LinkedIn";
@@ -14,7 +15,7 @@ const TeamPage: NextPage = () => {
       />
       <div>
         <Title title="Our Team" />
-        <div>
+        <FadeIn delay={0.15}>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Our team consists a group of passionate people who are working hard
             to make IIC TMSL a success.
@@ -23,9 +24,9 @@ const TeamPage: NextPage = () => {
             Tip: Click on the Images to visit their{" "}
             <LinkedIn className="h-3 w-auto px-1 sm:h-4" /> Profiles
           </p>
-        </div>
+        </FadeIn>
         <section>
-          <div className="container mx-auto py-24">
+          <FadeIn delay={0.45} className="container mx-auto py-24">
             <h2 className="mb-20 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               Administrative Heads
             </h2>
@@ -61,10 +62,10 @@ const TeamPage: NextPage = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </FadeIn>
         </section>
         <section>
-          <div className="container mx-auto py-24">
+          <FadeIn delay={0.6} className="container mx-auto py-24">
             <h2 className="mb-20 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               Heads and Co-Heads
             </h2>
@@ -101,7 +102,7 @@ const TeamPage: NextPage = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </FadeIn>
         </section>
       </div>
     </>

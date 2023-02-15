@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import FadeIn from "@/components/animation/FadeIn";
 import Header from "@/components/core/Header";
 import Title from "@/components/core/Title";
 import type { NextPage } from "next";
@@ -12,14 +13,17 @@ const ActivityPage: NextPage = () => {
       />
       <div>
         <Title title="Initiatives" />
-        <div>
+        <FadeIn delay={0.15}>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Initiatives are the backbone of any organization. Some of the
             initiatives that we have taken up are listed below.
           </h2>
-        </div>
+        </FadeIn>
         <section className="mx-auto max-w-5xl py-24 sm:py-40">
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          <FadeIn
+            delay={0.2}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="inline-flex h-28 w-auto flex-shrink-0 items-center justify-center sm:mr-10 sm:h-40 sm:w-auto">
               <img
                 src="/images/activity/iicintern.png"
@@ -37,8 +41,11 @@ const ActivityPage: NextPage = () => {
                 skillset.
               </p>
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.25}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 RISE
@@ -59,8 +66,11 @@ const ActivityPage: NextPage = () => {
                 className="h-56 w-56 rounded-full object-cover object-center shadow-lg sm:h-72 sm:w-72"
               />
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.3}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="inline-flex h-20 w-auto flex-shrink-0 items-center justify-center sm:mr-10 sm:h-28 sm:w-auto">
               <img
                 src="/images/activity/iicblog.png"
@@ -80,8 +90,11 @@ const ActivityPage: NextPage = () => {
                 mentioned topics.
               </p>
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.35}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 Innopedia
@@ -101,8 +114,11 @@ const ActivityPage: NextPage = () => {
                 className="h-56 w-56 rounded-full object-cover object-center sm:h-72 sm:w-72"
               />
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.4}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="inline-flex h-56 w-56 flex-shrink-0 items-center justify-center sm:mr-10 sm:h-72 sm:w-72">
               <img
                 src="/images/activity/envisage.png"
@@ -125,8 +141,11 @@ const ActivityPage: NextPage = () => {
                 mentored by the best in the fields.
               </p>
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.45}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 BONDHU
@@ -150,8 +169,11 @@ const ActivityPage: NextPage = () => {
                 className="h-20 w-auto sm:h-28 sm:w-auto"
               />
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.5}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="inline-flex h-60 w-60 flex-shrink-0 items-center justify-center sm:mr-10 sm:h-72 sm:w-72">
               <img
                 src="/images/activity/startup.png"
@@ -174,8 +196,11 @@ const ActivityPage: NextPage = () => {
                 and also act as a mentor to them.
               </p>
             </div>
-          </div>
-          <div className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row">
+          </FadeIn>
+          <FadeIn
+            delay={0.55}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
             <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
               <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
                 EAD
@@ -204,7 +229,7 @@ const ActivityPage: NextPage = () => {
                 className="h-56 w-56 rounded-full object-cover object-center shadow-lg sm:h-72 sm:w-72"
               />
             </div>
-          </div>
+          </FadeIn>
         </section>
       </div>
     </>

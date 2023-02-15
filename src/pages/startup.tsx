@@ -1,3 +1,4 @@
+import FadeIn from "@/components/animation/FadeIn";
 import Header from "@/components/core/Header";
 import Title from "@/components/core/Title";
 import type { NextPage } from "next";
@@ -11,13 +12,13 @@ const StartupPage: NextPage = () => {
       />
       <div>
         <Title title="Startup's" />
-        <div>
+        <FadeIn delay={0.15}>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
             Startup&apos;s supported by IIC TMSL.
           </h2>
-        </div>
+        </FadeIn>
         <section>
-          <div className="container mx-auto py-24">
+          <FadeIn delay={0.45} className="container mx-auto py-24">
             <h2 className="mb-20 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               IIC-SMP
             </h2>
@@ -27,10 +28,10 @@ const StartupPage: NextPage = () => {
               support start-ups from Ideation Stage to Company Registration
               Stage.
             </p>
-          </div>
+          </FadeIn>
         </section>
         <section>
-          <div className="container mx-auto py-24">
+          <FadeIn delay={0.6} className="container mx-auto py-24">
             <h2 className="mb-20 text-center text-4xl font-bold tracking-tight sm:text-5xl">
               Our Startup&apos;s
             </h2>
@@ -49,7 +50,7 @@ const StartupPage: NextPage = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </FadeIn>
         </section>
       </div>
     </>
