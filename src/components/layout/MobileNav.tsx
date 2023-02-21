@@ -2,7 +2,8 @@ import type { NavigationProps } from "@/types/nav";
 import { Dialog, Transition } from "@headlessui/react";
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { Fragment, useState } from "react";
+import { useRouter } from "next/router";
+import { Fragment, useEffect, useState } from "react";
 
 export default function MobileNav({
   navigation,
@@ -10,6 +11,18 @@ export default function MobileNav({
   navigation: NavigationProps[];
 }): JSX.Element {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
+
+  /* Closing the menu when the route changes. */
+  useEffect(() => {
+    const handleRouteChange = () => {
+      setOpen(false);
+    };
+    router.events.on("routeChangeStart", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeStart", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
