@@ -121,7 +121,7 @@ const facultylist = [
   {
     id: 2,
     name: "Prof. Sudipta Chakraborty",
-    role: "Convenor, TMSL",
+    role: "Member, IIC TMSL",
     image: "/images/faculty/sudipta.jpg",
   },
   {
