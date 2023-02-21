@@ -8,12 +8,12 @@ export default function MadeBy() {
       <HeartIcon className="heart mx-1 inline-block h-5 w-5 text-rose-600" />
       by
       <a
-        href="https://www.linkedin.com/in/uiuxarghya/"
+        href="https://www.linkedin.com/in/iictmsl/"
         className="ml-1 font-semibold text-white dark:text-zinc-700"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Arghya Ghosh
+        IIC TMSL
       </a>
     </div>
   );
