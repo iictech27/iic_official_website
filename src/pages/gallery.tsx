@@ -131,11 +131,11 @@ export default function GalleryPage() {
 const CarouselPhotos = [
   {
     id: 1,
-    src: "https://www.iictmsl.com/carousel%20images/1%20(1).jpg",
+    src: "/images/ca_im/1.jpg",
   },
   {
     id: 2,
-    src: "https://www.iictmsl.com/carousel%20images/IMG_9466.JPG",
+    src: "/images/ca_im/2.jpg",
   },
   {
     id: 3,
