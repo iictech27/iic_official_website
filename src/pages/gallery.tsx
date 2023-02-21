@@ -187,245 +187,245 @@ const CarouselPhotos = [
 const EADPhotos = [
   {
     id: 1,
-    src: "/imagegallery/ead1.jpg",
+    src: "/images/imagegallery/ead1.jpg",
   },
   {
     id: 2,
-    src: "/imagegallery/ead2.jpg",
+    src: "/images/imagegallery/ead2.jpg",
   },
   {
     id: 3,
-    src: "/imagegallery/ead3.jpg",
+    src: "/images/imagegallery/ead3.jpg",
   },
   {
     id: 4,
-    src: "/imagegallery/ead4.jpg",
+    src: "/images/imagegallery/ead4.jpg",
   },
   {
     id: 5,
-    src: "/imagegallery/ead5.jpg",
+    src: "/images/imagegallery/ead5.jpg",
   },
   {
     id: 6,
-    src: "/imagegallery/ead6.jpg",
+    src: "/images/imagegallery/ead6.jpg",
   },
   {
     id: 7,
-    src: "/imagegallery/ead7.jpg",
+    src: "/images/imagegallery/ead7.jpg",
   },
   {
     id: 8,
-    src: "/imagegallery/ead8.jpg",
+    src: "/images/imagegallery/ead8.jpg",
   },
   {
     id: 9,
-    src: "/imagegallery/ead9.jpg",
+    src: "/images/imagegallery/ead9.jpg",
   },
   {
     id: 10,
-    src: "/imagegallery/ead10.jpg",
+    src: "/images/imagegallery/ead10.jpg",
   },
   {
     id: 11,
-    src: "/imagegallery/ead11.jpg",
+    src: "/images/imagegallery/ead11.jpg",
   },
   {
     id: 12,
-    src: "/imagegallery/ead12.jpg",
+    src: "/images/imagegallery/ead12.jpg",
   },
   {
     id: 13,
-    src: "/imagegallery/ead13.jpg",
+    src: "/images/imagegallery/ead13.jpg",
   },
   {
     id: 14,
-    src: "/imagegallery/ead14.jpg",
+    src: "/images/imagegallery/ead14.jpg",
   },
   {
     id: 15,
-    src: "/imagegallery/ead15.jpg",
+    src: "/images/imagegallery/ead15.jpg",
   },
   {
     id: 16,
-    src: "/imagegallery/ead16.jpg",
+    src: "/images/imagegallery/ead16.jpg",
   },
   {
     id: 17,
-    src: "/imagegallery/ead17.jpg",
+    src: "/images/imagegallery/ead17.jpg",
   },
   {
     id: 18,
-    src: "/imagegallery/ead18.jpg",
+    src: "/images/imagegallery/ead18.jpg",
   },
   {
     id: 19,
-    src: "/imagegallery/ead19.jpg",
+    src: "/images/imagegallery/ead19.jpg",
   },
   {
     id: 20,
-    src: "/imagegallery/ead20.jpg",
+    src: "/images/imagegallery/ead20.jpg",
   },
   {
     id: 21,
-    src: "/imagegallery/ead21.jpg",
+    src: "/images/imagegallery/ead21.jpg",
   },
   {
     id: 22,
-    src: "/imagegallery/ead22.jpg",
+    src: "/images/imagegallery/ead22.jpg",
   },
   {
     id: 23,
-    src: "/imagegallery/ead23.jpg",
+    src: "/images/imagegallery/ead23.jpg",
   },
   {
     id: 24,
-    src: "/imagegallery/ead24.jpg",
+    src: "/images/imagegallery/ead24.jpg",
   },
   {
     id: 25,
-    src: "/imagegallery/ead25.jpg",
+    src: "/images/imagegallery/ead25.jpg",
   },
 ];
 
 const EStartPhotos = [
   {
     id: 1,
-    src: "/imagegallery/estart1.jpg",
+    src: "/images/imagegallery/estart1.jpg",
   },
   {
     id: 2,
-    src: "/imagegallery/estart2.jpg",
+    src: "/images/imagegallery/estart2.jpg",
   },
   {
     id: 3,
-    src: "/imagegallery/estart3.jpg",
+    src: "/images/imagegallery/estart3.jpg",
   },
   {
     id: 4,
-    src: "/imagegallery/estart4.jpg",
+    src: "/images/imagegallery/estart4.jpg",
   },
   {
     id: 5,
-    src: "/imagegallery/estart5.jpg",
+    src: "/images/imagegallery/estart5.jpg",
   },
   {
     id: 6,
-    src: "/imagegallery/estart6.jpg",
+    src: "/images/imagegallery/estart6.jpg",
   },
   {
     id: 7,
-    src: "/imagegallery/estart7.jpg",
+    src: "/images/imagegallery/estart7.jpg",
   },
   {
     id: 8,
-    src: "/imagegallery/estart8.jpg",
+    src: "/images/imagegallery/estart8.jpg",
   },
   {
     id: 9,
-    src: "/imagegallery/estart9.jpg",
+    src: "/images/imagegallery/estart9.jpg",
   },
   {
     id: 10,
-    src: "/imagegallery/estart10.jpg",
+    src: "/images/imagegallery/estart10.jpg",
   },
   {
     id: 11,
-    src: "/imagegallery/estart11.jpg",
+    src: "/images/imagegallery/estart11.jpg",
   },
   {
     id: 12,
-    src: "/imagegallery/estart12.jpg",
+    src: "/images/imagegallery/estart12.jpg",
   },
   {
     id: 13,
-    src: "/imagegallery/estart13.jpg",
+    src: "/images/imagegallery/estart13.jpg",
   },
   {
     id: 14,
-    src: "/imagegallery/estart14.jpg",
+    src: "/images/imagegallery/estart14.jpg",
   },
   {
     id: 15,
-    src: "/imagegallery/estart15.jpg",
+    src: "/images/imagegallery/estart15.jpg",
   },
   {
     id: 16,
-    src: "/imagegallery/estart16.jpg",
+    src: "/images/imagegallery/estart16.jpg",
   },
 ];
 
 const GuestPhotos = [
   {
     id: 1,
-    src: "https://www.iictmsl.com/Guests/2%20(2).jpg",
+    src: "/images/guests/1.jpg",
   },
   {
     id: 2,
-    src: "https://www.iictmsl.com/Guests/4%20(2).jpg",
+    src: "/images/guests/2.jpg",
   },
   {
     id: 3,
-    src: "https://www.iictmsl.com/Guests/ead9.jpg",
+    src: "/images/guests/3.jpg",
   },
   {
     id: 4,
-    src: "https://www.iictmsl.com/Guests/img_3068.jpg",
+    src: "/images/guests/4.jpg",
   },
   {
     id: 5,
-    src: "https://www.iictmsl.com/Guests/IMG_9482.JPG",
+    src: "/images/guests/5.jpg",
   },
   {
     id: 6,
-    src: "https://www.iictmsl.com/Guests/ead12.jpg",
+    src: "/images/guests/6.jpg",
   },
   {
     id: 7,
-    src: "https://www.iictmsl.com/Guests/IMG_3056%20(1).JPG",
+    src: "/images/guests/7.jpg",
   },
   {
     id: 8,
-    src: "https://www.iictmsl.com/Guests/IMG_3080_NEW.jpg",
+    src: "/images/guests/8.jpg",
   },
   {
     id: 9,
-    src: "https://www.iictmsl.com/Guests/8%20(1).jpg",
+    src: "/images/guests/9.jpg",
   },
   {
     id: 10,
-    src: "https://www.iictmsl.com/Guests/ead16.jpg",
+    src: "/images/guests/10.jpg",
   },
   {
     id: 11,
-    src: "https://www.iictmsl.com/Guests/estart10%20(1).jpg",
+    src: "/images/guests/11.jpg",
   },
   {
     id: 12,
-    src: "https://www.iictmsl.com/Guests/5.jpg",
+    src: "/images/guests/12.jpg",
   },
   {
     id: 13,
-    src: "https://www.iictmsl.com/Guests/IMG_3025.JPG",
+    src: "/images/guests/13.jpg",
   },
   {
     id: 14,
-    src: "https://www.iictmsl.com/Guests/estart14%20(1).jpg",
+    src: "/images/guests/14.jpg",
   },
   {
     id: 15,
-    src: "https://www.iictmsl.com/Guests/estart16.jpg",
+    src: "/images/guests/15.jpg",
   },
   {
     id: 16,
-    src: "https://www.iictmsl.com/Guests/IMG_3017.JPG",
+    src: "/images/guests/16.jpg",
   },
   {
     id: 17,
-    src: "https://www.iictmsl.com/Guests/ead13.jpg",
+    src: "/images/guests/17.jpg",
   },
   {
     id: 18,
-    src: "https://www.iictmsl.com/Guests/IMG_3031.JPG",
+    src: "/images/guests/18.jpg",
   },
 ];
 
