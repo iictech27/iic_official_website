@@ -139,177 +139,218 @@ const CarouselPhotos = [
   },
   {
     id: 3,
-    src: "https://www.iictmsl.com/carousel%20images/ead17.jpg",
+    src: "/images/ca_im/3.jpg",
   },
   {
     id: 4,
-    src: "https://www.iictmsl.com/carousel%20images/ead2%20(1).jpg",
+    src: "/images/ca_im/4.jpg",
   },
   {
     id: 5,
-    src: "https://www.iictmsl.com/carousel%20images/10.jpg",
+    src: "/images/ca_im/5.jpg",
   },
   {
     id: 6,
-    src: "https://www.iictmsl.com/carousel%20images/6%20(1).jpg",
+    src: "/images/ca_im/6.jpg",
   },
   {
     id: 7,
-    src: "https://www.iictmsl.com/carousel%20images/4.jpg",
+    src: "/images/ca_im/7.jpg",
   },
   {
     id: 8,
-    src: "https://www.iictmsl.com/carousel%20images/3%20(1).jpg",
+    src: "/images/ca_im/8.jpg",
   },
+  {
+    id: 9,
+    src: "/images/ca_im/9.jpg",
+  },
+  {
+    id: 10,
+    src: "/images/ca_im/10.jpg",
+  },
+  {
+    id: 11,
+    src: "/images/ca_im/11.jpg",
+  },
+  {
+    id: 12,
+    src: "/images/ca_im/13.jpg",
+  },
+  {
+    id: 13,
+    src: "/images/ca_im/13.jpg",
+  },
+
 ];
 
 const EADPhotos = [
   {
     id: 1,
-    src: "https://www.iictmsl.com/imagegallery/ead1.jpg",
+    src: "/imagegallery/ead1.jpg",
   },
   {
     id: 2,
-    src: "https://www.iictmsl.com/imagegallery/ead2.jpg",
+    src: "/imagegallery/ead2.jpg",
   },
   {
     id: 3,
-    src: "https://www.iictmsl.com/imagegallery/ead3.jpg",
+    src: "/imagegallery/ead3.jpg",
   },
   {
     id: 4,
-    src: "https://www.iictmsl.com/imagegallery/ead4.jpg",
+    src: "/imagegallery/ead4.jpg",
   },
   {
     id: 5,
-    src: "https://www.iictmsl.com/imagegallery/ead5.jpg",
+    src: "/imagegallery/ead5.jpg",
   },
   {
     id: 6,
-    src: "https://www.iictmsl.com/imagegallery/ead6.jpg",
+    src: "/imagegallery/ead6.jpg",
   },
   {
     id: 7,
-    src: "https://www.iictmsl.com/imagegallery/ead7.jpg",
+    src: "/imagegallery/ead7.jpg",
   },
   {
     id: 8,
-    src: "https://www.iictmsl.com/imagegallery/ead8.jpg",
+    src: "/imagegallery/ead8.jpg",
   },
   {
     id: 9,
-    src: "https://www.iictmsl.com/imagegallery/ead9.jpg",
+    src: "/imagegallery/ead9.jpg",
   },
   {
     id: 10,
-    src: "https://www.iictmsl.com/imagegallery/ead10.jpg",
+    src: "/imagegallery/ead10.jpg",
   },
   {
     id: 11,
-    src: "https://www.iictmsl.com/imagegallery/ead11.jpg",
+    src: "/imagegallery/ead11.jpg",
   },
   {
     id: 12,
-    src: "https://www.iictmsl.com/imagegallery/ead12.jpg",
+    src: "/imagegallery/ead12.jpg",
   },
   {
     id: 13,
-    src: "https://www.iictmsl.com/imagegallery/ead13.jpg",
+    src: "/imagegallery/ead13.jpg",
   },
   {
     id: 14,
-    src: "https://www.iictmsl.com/imagegallery/ead14.jpg",
+    src: "/imagegallery/ead14.jpg",
   },
   {
     id: 15,
-    src: "https://www.iictmsl.com/imagegallery/ead15.jpg",
+    src: "/imagegallery/ead15.jpg",
   },
   {
     id: 16,
-    src: "https://www.iictmsl.com/imagegallery/ead16.jpg",
+    src: "/imagegallery/ead16.jpg",
   },
   {
     id: 17,
-    src: "https://www.iictmsl.com/imagegallery/ead17.jpg",
+    src: "/imagegallery/ead17.jpg",
   },
   {
     id: 18,
-    src: "https://www.iictmsl.com/imagegallery/ead18.jpg",
+    src: "/imagegallery/ead18.jpg",
   },
   {
     id: 19,
-    src: "https://www.iictmsl.com/imagegallery/ead19.jpg",
+    src: "/imagegallery/ead19.jpg",
   },
   {
     id: 20,
-    src: "https://www.iictmsl.com/imagegallery/ead20.jpg",
+    src: "/imagegallery/ead20.jpg",
+  },
+  {
+    id: 21,
+    src: "/imagegallery/ead21.jpg",
+  },
+  {
+    id: 22,
+    src: "/imagegallery/ead22.jpg",
+  },
+  {
+    id: 23,
+    src: "/imagegallery/ead23.jpg",
+  },
+  {
+    id: 24,
+    src: "/imagegallery/ead24.jpg",
+  },
+  {
+    id: 25,
+    src: "/imagegallery/ead25.jpg",
   },
 ];
 
 const EStartPhotos = [
   {
     id: 1,
-    src: "https://www.iictmsl.com/imagegallery/estart1.jpg",
+    src: "/imagegallery/estart1.jpg",
   },
   {
     id: 2,
-    src: "https://www.iictmsl.com/imagegallery/estart2.jpg",
+    src: "/imagegallery/estart2.jpg",
   },
   {
     id: 3,
-    src: "https://www.iictmsl.com/imagegallery/estart3.jpg",
+    src: "/imagegallery/estart3.jpg",
   },
   {
     id: 4,
-    src: "https://www.iictmsl.com/imagegallery/estart4.jpg",
+    src: "/imagegallery/estart4.jpg",
   },
   {
     id: 5,
-    src: "https://www.iictmsl.com/imagegallery/estart5.jpg",
+    src: "/imagegallery/estart5.jpg",
   },
   {
     id: 6,
-    src: "https://www.iictmsl.com/imagegallery/estart6.jpg",
+    src: "/imagegallery/estart6.jpg",
   },
   {
     id: 7,
-    src: "https://www.iictmsl.com/imagegallery/estart7.jpg",
+    src: "/imagegallery/estart7.jpg",
   },
   {
     id: 8,
-    src: "https://www.iictmsl.com/imagegallery/estart8.jpg",
+    src: "/imagegallery/estart8.jpg",
   },
   {
     id: 9,
-    src: "https://www.iictmsl.com/imagegallery/estart9.jpg",
+    src: "/imagegallery/estart9.jpg",
   },
   {
     id: 10,
-    src: "https://www.iictmsl.com/imagegallery/estart10.jpg",
+    src: "/imagegallery/estart10.jpg",
   },
   {
     id: 11,
-    src: "https://www.iictmsl.com/imagegallery/estart11.jpg",
+    src: "/imagegallery/estart11.jpg",
   },
   {
     id: 12,
-    src: "https://www.iictmsl.com/imagegallery/estart12.jpg",
+    src: "/imagegallery/estart12.jpg",
   },
   {
     id: 13,
-    src: "https://www.iictmsl.com/imagegallery/estart13.jpg",
+    src: "/imagegallery/estart13.jpg",
   },
   {
     id: 14,
-    src: "https://www.iictmsl.com/imagegallery/estart14.jpg",
+    src: "/imagegallery/estart14.jpg",
   },
   {
     id: 15,
-    src: "https://www.iictmsl.com/imagegallery/estart15.jpg",
+    src: "/imagegallery/estart15.jpg",
   },
   {
     id: 16,
-    src: "https://www.iictmsl.com/imagegallery/estart16.jpg",
+    src: "/imagegallery/estart16.jpg",
   },
 ];
 
