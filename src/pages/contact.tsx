@@ -11,7 +11,7 @@ const ContactPage: NextPage = () => {
         <Title title="Contact Us" />
         <FadeIn delay={0.15}>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
-            We are always happy to hear from you. Please feel free to contact
+            We are always happy to hear from you. Please feel free to contact.
           </h2>
         </FadeIn>
         <section className="relative text-zinc-600 dark:text-zinc-500">
@@ -51,10 +51,10 @@ const ContactPage: NextPage = () => {
                     PHONE
                   </h2>
                   <a
-                    href="tel:+918515005676"
+                    href="tel:+919903342634"
                     className="leading-relaxed text-blue-500"
                   >
-                    +91 85150 05676
+                    +91 99033 42634
                   </a>
                 </div>
               </div>
