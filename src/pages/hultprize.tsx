@@ -1,4 +1,6 @@
 import FadeIn from "@/components/animation/FadeIn";
+import Header from "@/components/core/Header";
+import Head from "next/head";
 import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
@@ -6,18 +8,39 @@ import React from "react";
 export default function HultPrizePage() {
   return (
     <>
+      <Head>
+        <meta property="og:image" content="https://iictmsl-next.vercel.app/images/hultprize/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:title" content="Hult Prize 2023" />
+        <meta property="og:description" content="Welcome to Hult Prize 2023 at TMSL." />
+        <meta property="og:url" content="https://iictmsl.vercel.app/hultprize" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="IIC TMSL" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@iictmsl" />
+        <meta property="twitter:creator" content="@iictmsl" />
+        <meta property="twitter:title" content="Hult Prize 2023" />
+        <meta property="twitter:description" content="Welcome to Hult Prize 2023 at TMSL." />
+        <meta property="twitter:image" content="https://iictmsl-next.vercel.app/images/hultprize/og-image.png" />
+        <meta property="twitter:image:alt" content="Hult Prize 2023" />
+        <meta property="twitter:image:width" content="1200" />
+        <meta property="twitter:image:height" content="630" />
+      </Head>
+      <Header
+        title="Hult Prize 2023"
+        description="Welcome to Hult Prize 2023 at TMSL."
+      />
       <div className="fixed right-0 z-10 hidden flex-col items-center gap-y-4 sm:right-4 sm:flex">
         <Link href="https://www.facebook.com/hultprizetmsl/">
-          {" "}
-          <FacebookLogo className="h-5 text-[#E0097E] dark:text-white sm:h-8" />{" "}
+          <FacebookLogo className="h-5 text-[#E0097E] dark:text-white sm:h-8" />
         </Link>
         <Link href="https://www.instagram.com/hult_tmsl/">
-          {" "}
-          <InstagramLogo className="h-5 text-[#E0097E] dark:text-white sm:h-8" />{" "}
+          <InstagramLogo className="h-5 text-[#E0097E] dark:text-white sm:h-8" />
         </Link>
         <Link href="https://in.linkedin.com/company/iictmsl">
-          {" "}
-          <LinkedInLogo className="h-5 text-[#E0097E] dark:text-white sm:h-8" />{" "}
+          <LinkedInLogo className="h-5 text-[#E0097E] dark:text-white sm:h-8" />
         </Link>
         <div className="flex pt-10">
           <span className="-rotate-90">Follow us on</span>
