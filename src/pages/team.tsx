@@ -165,6 +165,13 @@ const teamlist = [
     linkedIn: "",
   },
   {
+    id: 4,
+    name: "Prastab Mukhopadhyay",
+    role: "Co-Head of Press wing.",
+    image: "/images/team/heads-coheads/prastab.jpg",
+    linkedIn: "prastab-mukhopadhyay-8b342923b",
+  },
+  {
     id: 5,
     name: "Rahul Das",
     role: "Co-Head of Press wing.",
@@ -196,7 +203,7 @@ const teamlist = [
     id: 9,
     name: "Abhipreya Ghosh",
     role: "Head of Start-up wing & Co-Head of Sponsorship wing.",
-    image: "/images/team/heads-coheads/abhipreya.jpg",
+    image: "/images/team/heads-coheads/abhi.jpg",
     linkedIn: "abhipreya-ghosh-531576211",
   },
   {
@@ -240,6 +247,13 @@ const teamlist = [
     role: "Head of Resource wing.",
     image: "/images/team/heads-coheads/ishika.jpg",
     linkedIn: "",
+  },
+  {
+    id: 15,
+    name: "Sandeep Pratap",
+    role: "Co-Head of Resource wing.",
+    image: "/images/team/heads-coheads/sandeep.jpg",
+    linkedIn: "sandeep-pratap-528003202",
   },
   {
     id: 16,
