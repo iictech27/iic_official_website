@@ -1,14 +1,26 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import FadeIn from "@/components/animation/FadeIn";
+import { HultPrizeLogo } from "@/pages/hultprize";
 
 export default function Hero() {
   return (
     <div>
-      <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-        <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-zinc-900/10 transition-colors duration-150 ease-in-out hover:ring-zinc-900/20 dark:ring-zinc-600/60 dark:hover:ring-zinc-400/80">
-          <span className="text-zinc-600 dark:text-zinc-500">
-            ✨ Introducing our site 1.0 ✨
-          </span>
+      <div className="mb-8 sm:flex sm:justify-center">
+        <div className="relative w-auto overflow-hidden rounded-full py-1.5 text-sm leading-6 ring-1 ring-zinc-900/10 transition-colors duration-150 ease-in-out hover:ring-zinc-900/20 dark:ring-zinc-600/60 dark:hover:ring-zinc-400/80 sm:px-4">
+          <a
+            href="/hultprize"
+            className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
+          >
+            <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" />
+            2023
+          </a>
         </div>
+        <span className="relative right-1 hidden h-5 w-5 animate-bounce items-center justify-center sm:flex">
+          <span className="absolute inline-flex h-full w-full animate-ping rounded bg-[#E0097E] opacity-75"></span>
+          <span className="relative inline-flex rounded bg-[#E0097E] p-0.5 px-1 text-xs text-white">
+            New
+          </span>
+        </span>
       </div>
       <div>
         <FadeIn delay={0.15}>
