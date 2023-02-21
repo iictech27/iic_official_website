@@ -432,62 +432,79 @@ const GuestPhotos = [
 const EnvisagePhotos = [
   {
     id: 1,
-    src: "https://www.iictmsl.com/envisage/IMG_2845.JPG",
+    src: "/images/guests/19.jpg",
   },
   {
     id: 2,
-    src: "https://www.iictmsl.com/envisage/IMG_3034%20(2).JPG",
+    src: "/images/guests/20.jpg",
   },
   {
     id: 3,
-    src: "https://www.iictmsl.com/envisage/IMG_3055%20(1).JPG",
+    src: "/images/guests/21.jpg",
   },
   {
     id: 4,
-    src: "https://www.iictmsl.com/envisage/IMG_3059%20(1).JPG",
+    src: "/images/guests/22.jpg",
   },
   {
     id: 5,
-    src: "https://www.iictmsl.com/envisage/IMG_3063%20(1).JPG",
+    src: "/images/guests/23.jpg",
   },
   {
     id: 6,
-    src: "https://www.iictmsl.com/envisage/IMG_3111%20(1).JPG",
+    src: "/images/guests/24.jpg",
   },
   {
     id: 7,
-    src: "https://www.iictmsl.com/envisage/IMG_3139%20(1).JPG",
+    src: "/images/guests/25.jpg",
   },
   {
     id: 8,
-    src: "https://www.iictmsl.com/envisage/IMG_9484.JPG",
+    src: "/images/guests/26.jpg",
   },
   {
     id: 9,
-    src: "https://www.iictmsl.com/envisage/IMG_9466%20(1).JPG",
+    src: "/images/guests/27.jpg",
   },
   {
     id: 10,
-    src: "https://www.iictmsl.com/envisage/IMG_9469%20(1).JPG",
+    src: "/images/guests/28.jpg",
   },
   {
     id: 11,
-    src: "https://www.iictmsl.com/envisage/_MG_5766.JPG",
+    src: "/images/guests/29.jpg",
   },
   {
     id: 12,
-    src: "https://www.iictmsl.com/envisage/2%20(2).jpg",
+    src: "/images/guests/30.jpg",
   },
   {
     id: 13,
-    src: "https://www.iictmsl.com/envisage/1.jpg",
+    src: "/images/guests/31.jpg",
   },
   {
     id: 14,
-    src: "https://www.iictmsl.com/envisage/IMG_3382%20(1).JPG",
+    src: "/images/guests/32.jpg",
   },
   {
     id: 15,
-    src: "https://www.iictmsl.com/envisage/IMG_3126.JPG",
+    src: "/images/guests/33.jpg",
   },
+  {
+    id: 16,
+    src: "/images/guests/34.jpg",
+  },
+  {
+    id: 17,
+    src: "/images/guests/35.jpg",
+  },
+  {
+    id: 18,
+    src: "/images/guests/36.jpg",
+  },
+  {
+    id: 19,
+    src: "/images/guests/37.jpg",
+  },
+
 ];
