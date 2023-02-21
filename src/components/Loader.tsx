@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
 /*
@@ -14,6 +16,7 @@ function Spinner() {
 
 export default function Loader(): JSX.Element {
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
   useEffect(() => {
     setTimeout(() => {
@@ -25,7 +28,16 @@ export default function Loader(): JSX.Element {
     <>
       {loading && (
         <div className="fixed z-50 flex h-full w-screen items-center justify-center bg-white dark:bg-black">
-          <div className="loader-wrapper">{Spinner()}</div>
+          {router.pathname === "/hultprize" ? (
+            <div className="loader-wrapper">
+              <img
+                src="/images/hultprize/hult-loader.gif"
+                alt="Hult Prize Loader"
+              />
+            </div>
+          ) : (
+            <div className="loader-wrapper">{Spinner()}</div>
+          )}
         </div>
       )}
     </>
