@@ -12,7 +12,7 @@ const FacultyPage: NextPage = () => {
         <Title title="Faculty" />
         <FadeIn delay={0.15}>
           <h2 className="mx-auto mt-6 max-w-3xl text-center text-2xl leading-8 text-zinc-600 dark:text-zinc-500">
-            Faculty members of IIC TMSL.
+            Faculty members of IIC TMSL
           </h2>
         </FadeIn>
         <section>
@@ -121,13 +121,13 @@ const facultylist = [
   {
     id: 2,
     name: "Prof. Subhajit Bhowmick",
-    role: "President, IIC - Techno Main Salt Lake",
+    role: "President, Institution's Innovation Council - TMSL",
     image: "/images/faculty/subhajit.jpg",
   },
   {
     id: 3,
     name: "Prof. Sudipta Chakraborty",
-    role: "Teacher Convenor, IIC TMSL",
+    role: "Teacher Convenor, Institution's Innovation Council - TMSL",
     image: "/images/faculty/sudipta.jpg",
   },
   {
