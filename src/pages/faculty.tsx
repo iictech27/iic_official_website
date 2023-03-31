@@ -106,7 +106,7 @@ const directorList = [
   {
     id: 3,
     name: "Dr.Avijit Kar",
-    role: "Principal & Director, TMSL",
+    role: "Principal & Director, Techno Main Salt Lake",
     image: "/images/faculty/img3.jpg",
   },
 ];
@@ -115,13 +115,13 @@ const facultylist = [
   {
     id: 1,
     name: "Prof. Soumitra Sasmal",
-    role: "Registrar, TMSL",
+    role: "Registrar, Techno Main Salt Lake",
     image: "/images/faculty/img4.jpg",
   },
   {
     id: 2,
     name: "Prof. Subhajit Bhowmick",
-    role: "President, IIC TMSL",
+    role: "President, Institutions Innovation Council - Techno Main Salt Lake",
     image: "/images/faculty/subhajit.jpg",
   },
   {
