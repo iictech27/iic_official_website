@@ -121,7 +121,7 @@ const facultylist = [
   {
     id: 2,
     name: "Prof. Subhajit Bhowmick",
-    role: "President, Institutions Innovation Council - Techno Main Salt Lake",
+    role: "President, IIC - Techno Main Salt Lake",
     image: "/images/faculty/subhajit.jpg",
   },
   {
