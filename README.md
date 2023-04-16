@@ -42,6 +42,7 @@
 ## Authors
 
 - Arghya Ghosh - [@uiuxarghya](https://www.github.com/uiuxarghya)
+- Aditya Seth - [@AdityaSeth777](https://www.github.com/AdityaSeth777)
 
 
 ## License
