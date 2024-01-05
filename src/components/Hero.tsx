@@ -12,7 +12,7 @@ export default function Hero() {
             className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
           >
             <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" />
-            2024
+            2023
           </a>
         </div>
         <span className="relative right-1 hidden h-5 w-5 animate-bounce items-center justify-center sm:flex">
