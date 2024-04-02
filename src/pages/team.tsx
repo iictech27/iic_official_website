@@ -235,93 +235,93 @@ const teamlist = [
     linkedIn: "firoz-ali-mondal-624069283",
   },
     {
-    id: 27,
+    id: 16,
     name: "Mitali Lal",
     role: "Co-Head of Management & Resource wing.",
-    image: "https://i.ibb.co/gjZx4fX/Mitali-Lal.jpg",
-    linkedIn: ""
+    image: "/images/team/heads-coheads/Mitali_Lal.webp",
+    linkedIn: "/mitali-lal-7b4193243"
 
-  }
+  },
   {
-    id: 16,
+    id: 17,
     name: "Dewashish Kr. Tiwary",
     role: "Head of PR & Outreach wing.",
     image: "/images/team/heads-coheads/dewashish.webp",
     linkedIn: "dewashish-tiwary-43196b201",
   },
   {
-    id: 17,
+    id: 18,
     name: "Payel Chaudhuri",
     role: "Co-Head of PR & Outreach wing.",
     image: "/images/team/heads-coheads/payel.webp",
     linkedIn: "payel-chaudhuri-aiml",
   },
   {
-    id: 18,
+    id: 19,
     name: "Aadarsh Sharma",
     role: "Co-Head of PR & Outreach wing.",
     image: "/images/team/heads-coheads/aadarsh.webp",
     linkedIn: "aadarsh-sharma-65548a244",
   },
    {
-    id: 28,
+    id: 20,
     name: "Arunabha Sengupta",
     role: "Co-Head of PR & Outreach wing",
-    image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
-    linkedIn: ""
+    image: "/images/team/heads-coheads/Arunabha.webp",
+    linkedIn: "arunabha-sengupta-5a4048237"
 
-  }
+   },
   {
-    id: 19,
+    id: 21,
     name: "Uddipta Kar",
     role: "Head of Social Media wing.",
     image: "/images/team/heads-coheads/uddipta.webp",
     linkedIn: "uddipta-kar-199323188",
   },
   {
-    id: 20,
+    id: 22,
     name: "Ruben Clifford Gomes",
     role: "Co-Head of Social Media wing.",
     image: "/images/team/heads-coheads/ruben.webp",
     linkedIn: "ruben-gomes-72500a219",
   },
   {
-    id: 21,
+    id: 23,
     name: "Abhipreya Ghosh",
     role: "Head of Start-up wing.",
     image: "/images/team/heads-coheads/abhipreyo.webp",
     linkedIn: "abhipreya-ghosh-531576211",
   },
   {
-    id: 22,
+    id: 24,
     name: "Abhimanyu Kanjilal",
     role: "Co-Head of Start-up wing.",
     image: "/images/team/heads-coheads/abhimanyu.webp",
     linkedIn: "abhimanyu-kanjilal-66432022a",
   },
   {
-    id: 23,
+    id: 25,
     name: "Abhay Bajpayee",
     role: "Co-Head of Start-up wing.",
     image: "/images/team/heads-coheads/abhay.webp",
     linkedIn: "abhay-bajpayee-34a42825b",
   },
   {
-    id: 24,
+    id: 26,
     name: "Soumyadeep Banerjee",
     role: "Head of Sponsorship wing.",
     image: "/images/team/heads-coheads/soumyadeep-sp.webp",
     linkedIn: "soumyadeep-banerjee-722447237",
   },
   {
-    id: 25,
+    id: 27,
     name: "Manash Goyal",
     role: "Co-Head of Sponsorship wing.",
     image: "/images/team/heads-coheads/manash.webp",
     linkedIn: "manash-goyal-942930233",
   },
   {
-    id: 26,
+    id: 28,
     name: "Isha Tirkey",
     role: "Co-Head of Sponsorship wing.",
     image: "/images/team/heads-coheads/isha.webp",
