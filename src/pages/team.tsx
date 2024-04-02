@@ -162,7 +162,7 @@ const teamlist = [
     name: "Kumar Aditya",
     role: "Co-Head of Technical wing.",
     image: "/images/team/heads-coheads/aditya.webp",
-    linkedIn: "",
+    linkedIn: "kumar-aditya-0ab61b234/",
   },
   {
     id: 6,
@@ -234,6 +234,14 @@ const teamlist = [
     image: "/images/team/heads-coheads/firoz.webp",
     linkedIn: "firoz-ali-mondal-624069283",
   },
+    {
+    id: 27,
+    name: "Mitali Lal",
+    role: "Co-Head of Management & Resource wing.",
+    image: "https://i.ibb.co/gjZx4fX/Mitali-Lal.jpg",
+    linkedIn: ""
+
+  }
   {
     id: 16,
     name: "Dewashish Kr. Tiwary",
@@ -255,6 +263,14 @@ const teamlist = [
     image: "/images/team/heads-coheads/aadarsh.webp",
     linkedIn: "aadarsh-sharma-65548a244",
   },
+   {
+    id: 28,
+    name: "Arunabha Sengupta",
+    role: "Co-Head of PR & Outreach wing",
+    image: "https://i.ibb.co/Th8wmCV/Arunabha.jpg",
+    linkedIn: ""
+
+  }
   {
     id: 19,
     name: "Uddipta Kar",
