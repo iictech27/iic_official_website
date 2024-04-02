@@ -162,7 +162,7 @@ const teamlist = [
     name: "Kumar Aditya",
     role: "Co-Head of Technical wing.",
     image: "/images/team/heads-coheads/aditya.webp",
-    linkedIn: "kumar-aditya-0ab61b234",
+    linkedIn: "",
   },
   {
     id: 6,
