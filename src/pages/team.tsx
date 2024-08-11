@@ -266,7 +266,7 @@ const teamlist = [
    {
     id: 20,
     name: "Arunabha Sengupta",
-    role: "Co-Head of PR & Outreach wing",
+    role: "Head of Sponsorship wing",
     image: "/images/team/heads-coheads/Arunabha.webp",
     linkedIn: "arunabha-sengupta-5a4048237"
 
