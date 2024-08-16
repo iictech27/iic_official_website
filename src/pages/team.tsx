@@ -114,7 +114,7 @@ export default TeamPage;
 const adminList = [
   {
     id: 1,
-    name: "Aaqib Ahmad",
+    name: "Aaquib Ahmad",
     role: "Convenor",
     image: "/images/team/admin/Aaquib Ahmad.jpg",
     linkedIn: "aaquib-ahmad-5a6809248/",
