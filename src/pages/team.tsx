@@ -138,7 +138,7 @@ const adminList = [
 const teamlist = [
   {
     id: 1,
-    name: "Ashahr Ali Ahmed",
+    name: "Ashhar Ali Ahmed",
     role: "Head of Tech wing",
     image: "/images/team/heads-coheads/Ashhar Ali Ahmed.jpg",
     linkedIn: "ashhar-ali-ahmed-971aaa193",
