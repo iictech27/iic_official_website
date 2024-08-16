@@ -306,6 +306,20 @@ const teamlist = [
   },
   {
     id: 25,
+    name: "Ayush Dev",
+    role: "Head of Content Wing",
+    image: "/images/team/heads-coheads/Ayush Dev.jpg",
+    linkedIn: "ayush-dev-35b742206",
+  },
+  {
+    id: 26,
+    name: "Aparajita Goswami",
+    role: "Co-head of Content Wing",
+    image: "/images/team/heads-coheads/Aparajita Goswami.jpg",
+    linkedIn: "aparajita-goswami-087420256",
+  },
+  {
+    id: 27,
     name: "Rajgopal Kumar",
     role: "Head of UI/UX wing",
     image: "/images/team/heads-coheads/Rajgopal Kumar.png",

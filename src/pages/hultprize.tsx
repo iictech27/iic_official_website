@@ -90,7 +90,7 @@ export default function HultPrizePage() {
         >
           <div className="inline-flex h-72 w-72 flex-shrink-0 items-center justify-center sm:mr-10 sm:h-96 sm:w-96">
             <Image
-              src="/images/hultprize/director.png"
+              src="/images/hultprize/director.jpg"
               alt="Director"
               className="sm:h-84 sm:w-84 h-72 w-72 rounded-full"
               width={500}
@@ -102,7 +102,7 @@ export default function HultPrizePage() {
           </div>
           <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
             <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
-              Ankit Gorain
+              Payel Chaudhuri
             </h2>
             <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
               &ldquo;It&apos;s not everyday that you have an opportunity to
