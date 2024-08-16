@@ -203,7 +203,7 @@ const teamlist = [
     id: 10,
     name: "Soumyadeep Adhikary",
     role: "Head of Press wing.",
-    image: "/images/team/heads-coheads/soumyadeep Adhikary.jpg",
+    image: "/images/team/heads-coheads/Soumyadeep Adhikary.jpg",
     linkedIn: "soumyadeep-adhikary-731a5b26b",
   },
   {
