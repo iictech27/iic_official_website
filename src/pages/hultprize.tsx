@@ -12,8 +12,8 @@ export default function HultPrizePage() {
         <meta property="og:image" content="https://iictmsl-next.vercel.app/images/hultprize/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:title" content="Hult Prize 2023" />
-        <meta property="og:description" content="Welcome to Hult Prize 2023 at TMSL." />
+        <meta property="og:title" content="Hult Prize 2024" />
+        <meta property="og:description" content="Welcome to Hult Prize 2024 at TMSL." />
         <meta property="og:url" content="https://iictmsl.vercel.app/hultprize" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="IIC TMSL" />
@@ -21,16 +21,16 @@ export default function HultPrizePage() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:site" content="@iictmsl" />
         <meta property="twitter:creator" content="@iictmsl" />
-        <meta property="twitter:title" content="Hult Prize 2023" />
-        <meta property="twitter:description" content="Welcome to Hult Prize 2023 at TMSL." />
+        <meta property="twitter:title" content="Hult Prize 2024" />
+        <meta property="twitter:description" content="Welcome to Hult Prize 2024 at TMSL." />
         <meta property="twitter:image" content="https://iictmsl-next.vercel.app/images/hultprize/og-image.png" />
-        <meta property="twitter:image:alt" content="Hult Prize 2023" />
+        <meta property="twitter:image:alt" content="Hult Prize 2024" />
         <meta property="twitter:image:width" content="1200" />
         <meta property="twitter:image:height" content="630" />
       </Head>
       <Header
-        title="Hult Prize 2023"
-        description="Welcome to Hult Prize 2023 at TMSL."
+        title="Hult Prize 2024"
+        description="Welcome to Hult Prize 2024 at TMSL."
       />
       <div className="fixed right-0 z-10 hidden flex-col items-center gap-y-4 sm:right-4 sm:flex">
         <Link href="https://www.facebook.com/hultprizetmsl/">
@@ -52,7 +52,7 @@ export default function HultPrizePage() {
           <h1 className="mb-4 text-center text-5xl font-[800] tracking-tighter sm:flex-row sm:gap-x-3 sm:text-7xl">
             <span className="text-[#E0097E]">
               Welcome to <br />
-              Hult Prize 2023
+              Hult Prize 2024
             </span>
           </h1>
           <h2 className="mb-6 text-center text-3xl font-[700] tracking-tighter sm:mb-20 sm:flex-row sm:gap-x-3 sm:text-5xl">
@@ -122,7 +122,7 @@ export default function HultPrizePage() {
         <div className="sm:hidden">
           <Image
             src="/images/hultprize/rd-fashion-square.png"
-            alt="Hult Prize 2023"
+            alt="Hult Prize 2024"
             className="rounded-xl shadow-lg"
             width={500}
             height={500}
@@ -134,7 +134,7 @@ export default function HultPrizePage() {
         <div className="hidden sm:block">
           <Image
             src="/images/hultprize/rd-fashion.png"
-            alt="Hult Prize 2023"
+            alt="Hult Prize 2024"
             className="rounded-xl shadow-lg"
             width={1800}
             height={700}
