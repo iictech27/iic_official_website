@@ -130,7 +130,7 @@ const adminList = [
   id: 3,
   name: "Manash Goyal",
   role: "Co-Convenor",
-  image: "/images/team/admin/Manash Goyal.jpg",
+  image: "https://i.ibb.co/MBtsWxQ/Manash-Goyal.jpg",
   linkedIn: "manash-goyal-942930233/",
 }
 ];

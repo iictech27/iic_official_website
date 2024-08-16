@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ["www.iictmsl.com",'photos.google.com','i.ibb.co'],
+  },
   async headers() {
     return [
       {
