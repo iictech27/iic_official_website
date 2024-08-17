@@ -114,15 +114,15 @@ export default TeamPage;
 const adminList = [
   {
     id: 1,
-    name: "Aaqib Ahmad",
+    name: "Aaquib Ahmad",
     role: "Convenor",
-    image: "/images/team/admin/Aaquib Ahmad.jpg",
+    image: "/images/team/admin/Aaquib Ahmad.png",
     linkedIn: "aaquib-ahmad-5a6809248/",
 },
 {
   id: 2,
   name: "Aadarsh Sharma",
-  role: "Convenor External Affairs",
+  role: "Convenor of External Affairs",
   image: "/images/team/admin/Aadarsh Sharma.png",
   linkedIn: "aadarsh13/",
 },
@@ -132,13 +132,20 @@ const adminList = [
   role: "Co-Convenor",
   image: "https://i.ibb.co/MBtsWxQ/Manash-Goyal.jpg",
   linkedIn: "manash-goyal-942930233/",
+},
+{
+  id: 4,
+  name: "Payel Chaudhuri",
+  role: "Campus Director HULT Prize",
+  image: "/images/team/admin/Payel Chaudhuri.jpg",
+  linkedIn: "manash-goyal-942930233/",
 }
 ];
 
 const teamlist = [
   {
     id: 1,
-    name: "Ashahr Ali Ahmed",
+    name: "Ashhar Ali Ahmed",
     role: "Head of Tech wing",
     image: "/images/team/heads-coheads/Ashhar Ali Ahmed.jpg",
     linkedIn: "ashhar-ali-ahmed-971aaa193",
@@ -273,7 +280,7 @@ const teamlist = [
     id: 20,
     name: "Sarthak Sarkar",
     role: "Co-head of Sponsorship wing.",
-    image: "/images/team/heads-coheads/Sarthak Sarkar.jpeg",
+    image: "/images/team/heads-coheads/Sarthak.jpg",
     linkedIn: "sarthak-sarkar-45b327311",
   },
   {
