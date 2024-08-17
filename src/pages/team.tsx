@@ -138,7 +138,7 @@ const adminList = [
   name: "Payel Chaudhuri",
   role: "Campus Director HULT Prize",
   image: "/images/team/admin/Payel Chaudhuri.jpg",
-  linkedIn: "manash-goyal-942930233/",
+  linkedIn: "payel-chaudhuri-aiml",
 }
 ];
 
