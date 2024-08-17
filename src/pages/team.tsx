@@ -294,7 +294,7 @@ const teamlist = [
     id: 22,
     name: "Abhimanyu Kanjilal",
     role: "Head of Start-Up wing.",
-    image: "/images/team/heads-coheads/Abhimanyu Kanjilal.jpg",
+    image: "/images/team/heads-coheads/Abhimanyu Kanjilal1.jpg",
     linkedIn: "abhimanyu2002",
   },
   {
