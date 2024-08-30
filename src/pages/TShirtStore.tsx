@@ -51,8 +51,9 @@ const ProductCard = ({ product }) => {
             {product.name}
           </div>
           <div className="mt-3 flex items-center">
+            <span font-semibold>PreBook at : </span>
             <span className="text-xl md:text-2xl ml-5 font-semibold dark:text-black">
-              ₹{price}
+             ₹{price}
             </span>
           </div>
           {/* <p className="text-gray-500 text-sm md:text-base">MRP</p> */}
@@ -111,6 +112,7 @@ const TShirtStore = () => {
       name: "Code to Buy : #101",
       price: 169.00,
       features: [
+        "Pre Book at Rs 169 only",
         "100% original Products",
         "Access Early Bird offer",
         
@@ -127,6 +129,7 @@ const TShirtStore = () => {
       name: "Code to Buy : #202",
       price: 169.00,
       features: [
+        "Pre Book at Rs 169 only",
         "100% original Products",
         "Access Early Bird offer",
       ],
@@ -142,6 +145,7 @@ const TShirtStore = () => {
       name: "Code to Buy : #303",
       price: 169.00,
       features: [
+        "Pre Book at Rs 169 only",
         "100% original Products",
         "Access Early Bird offer",
       ],
