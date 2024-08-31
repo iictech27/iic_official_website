@@ -62,9 +62,8 @@ export default StartupPage;
 const startupList = [
   {
     id: 1,
-    name: "Majdoor Mera Naam",
-    description:
-      "Majdoor Mera Naam Pvt. Ltd. is linking the internet and social media in order to create a better platform in which labour can be provided with a better environment to work on.",
+    name: "My Perfect PG",
+    description: "My Perfect PG is an app designed to make relocation a breeze. Whether you’re a student or a professional moving to a new city for study or work, this app is here to simplify your search for accommodation at a new place. My Perfect PG provides a streamlined way to find PGs, hostels, and flats that meet your needs, all while easing the hassle of relocation. This innovative solution ensures you have the right place to stay, allowing you to settle in comfortably and focus on your next steps.",
   },
   {
     id: 2,
@@ -142,5 +141,16 @@ const startupList = [
     id: 14,
     name: "Yoursdoc",
     description: "Healthcare relevant and an unique idea.",
+  },
+  {
+    id: 15,
+    name: "Secret chef",
+    description: "Introducing The Secret Chef, a promising startup born from the innovative minds at IIC TMSL. This initiative brings together homemakers to deliver fresh, healthy, and affordable home-cooked meals for events and programs. With over 1500+ plates already served, The Secret Chef is carving a niche in the culinary world, offering a delightful alternative to everyday cravings. Their mission is simple: to deliver ghar ka khana that’s both delicious and nourishing, and they’re just getting started.",
+  },
+  {
+    id: 16,
+    name: "Majdoor Mera Naam",
+    description:
+      "Majdoor Mera Naam Pvt. Ltd. is linking the internet and social media in order to create a better platform in which labour can be provided with a better environment to work on.",
   },
 ];
