@@ -20,6 +20,26 @@ const ActivityPage: NextPage = () => {
           </h2>
         </FadeIn>
         <section className="mx-auto max-w-5xl py-24 sm:py-40">
+        <FadeIn
+            delay={0.25}
+            className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"
+          >
+            <div className="mt-6 flex-grow text-center sm:mt-0 sm:text-left">
+              <h2 className="mb-6 text-4xl font-bold tracking-tight sm:text-5xl">
+                STARTUP CRAFTER
+              </h2>
+              <p className="mx-auto mt-6 text-lg leading-8 text-zinc-600 dark:text-zinc-500 sm:text-left sm:text-xl">
+                (Launched on: September, 2024) Meet Startup Crafter, an all-in-one app created by the talented team at IIC TMSL. Startup Crafter is built for entrepreneurs who are looking to grow their ventures, connect with talent, and access valuable resources. Whether you’re a startup founder in need of freelancers, looking for interns, and mentorship or seeking help with registration and incubation, this app provides everything you need in one place. Startup Crafter is the ultimate platform for fostering innovation and building a thriving startup ecosystem. 
+              </p>
+            </div>
+            <div className="order-first inline-flex h-56 w-56 flex-shrink-0 items-center justify-center sm:order-none sm:ml-10 sm:h-72 sm:w-72">
+              <img
+                src="/images/activity/STARTUP-CRAFTER-LOGO.png"
+                alt="RISE"
+                className="h-56 w-56 rounded-full object-cover object-center shadow-lg sm:h-72 sm:w-72"
+              />
+            </div>
+          </FadeIn>
           <FadeIn
             delay={0.2}
             className="mx-auto mb-10 flex flex-col items-center pb-24 sm:flex-row"

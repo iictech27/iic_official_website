@@ -13,6 +13,7 @@ const navigation = [
   { name: "Faculty", href: "/faculty" },
   { name: "Alumni", href: "/alumni" },
   { name: "Contact", href: "/contact" },
+  { name: "T-shirts", href: "/TShirtStore" },
 ];
 
 export default function Navbar() {
@@ -33,17 +34,19 @@ export default function Navbar() {
           <MobileNav navigation={navigation} />
         </div>
         <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-6">
-          {navigation.map((item) => (
+          {navigation.map((item) => (<>
             <Link
               key={item.name}
               href={item.href}
               className="text-sm font-medium text-zinc-600 transition-colors duration-150 ease-linear hover:text-zinc-900 dark:text-zinc-500 dark:hover:text-zinc-300 pt-3"
-            >
-              {item.name}
+              >
+              {item.name === "T-shirts" ? (
+                <span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">{item.name}</span>
+              ):(item.name)}              
             </Link>
-          ))}
-          <Link href="https://forms.gle/WfAqhAt8pp89MdCd7"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Induction_Attendance</button></Link>
-      <Link href="/TShirtStore"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">T-shirts</button></Link>
+            </>))}
+
+          <Link href="https://forms.gle/WfAqhAt8pp89MdCd7"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Induction Attendance</button></Link>          
         </div>
         <div className="hidden lg:flex lg:min-w-0 lg:justify-end">
           <ModeToggle />

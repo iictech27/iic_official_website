@@ -8,13 +8,28 @@ export default function Hero() {
       <div className="mb-8 sm:flex sm:justify-center">
         <div className="relative w-auto overflow-hidden rounded-full py-1.5 text-sm leading-6 ring-1 ring-zinc-900/10 transition-colors duration-150 ease-in-out hover:ring-zinc-900/20 dark:ring-zinc-600/60 dark:hover:ring-zinc-400/80 sm:px-4">
           <a
+            href="/TShirtStore"
+            className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
+          >
+            {/* <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" /> */}
+            Our<span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">MERCHANDISE</span> is now live<span
+              className="text-black group-hover:text-white dark:text-white dark:group-hover:text-black"
+              aria-hidden="true"
+            >
+              &#8599;
+            </span>
+          </a>
+          {/* <a
             href="/hultprize"
             className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
           >
             <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" />
             2024
-          </a>
+          </a> */}
         </div>
+        
+        {/* Temporarily comennted Tshirt is now highlighted */}
+
         <span className="relative right-1 hidden h-5 w-5 animate-bounce items-center justify-center sm:flex">
           <span className="absolute inline-flex h-full w-full animate-ping rounded bg-[#E0097E] opacity-75"></span>
           <span className="relative inline-flex rounded bg-[#E0097E] p-0.5 px-1 text-xs text-white">

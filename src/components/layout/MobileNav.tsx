@@ -85,17 +85,19 @@ export default function MobileNav({
                         <div className="mt-8">
                           <div className="flow-root">
                             <ul role="list" className="">
-                              {navigation.map((item) => (
+                              {navigation.map((item) => (<>
                                 <Link
-                                  key={item.name}
-                                  href={item.href}
-                                  className="-mx-3 block rounded-lg py-4 px-3 text-2xl font-semibold leading-7 text-zinc-900 hover:bg-zinc-400/10 dark:text-zinc-100"
+                                key={item.name}
+                                href={item.href}
+                                className="-mx-3 block rounded-lg py-4 px-3 text-2xl font-semibold leading-7 text-zinc-900 hover:bg-zinc-400/10 dark:text-zinc-100"
                                 >
-                                  {item.name}
-                                </Link>
-                              ))}
-                              <Link href="https://forms.gle/WfAqhAt8pp89MdCd7"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Induction_Attendance</button></Link>
-                          <Link href="/TShirtStore">   <button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">T-Shirts</button></Link>
+                                {item.name === "T-shirts" ? (
+                                  <span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">{item.name}</span>
+                                ):(item.name)}              
+                              </Link>
+                              </>))}
+                              <Link href="https://forms.gle/WfAqhAt8pp89MdCd7"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 text-xl dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2">Induction Attendance</button></Link>
+                          {/* <Link href="/TShirtStore">   <button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">T-Shirts</button></Link> */}
 
                             </ul>
                           </div>
