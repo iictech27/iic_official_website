@@ -94,9 +94,9 @@ export default function Component() {
             {carouselItems.map((item, index) => (
               <div
                 key={`${item.id}-${index}`}
-                className={`mx-[10px] flex-[0_0_calc(33.333%-20px)] transition-all duration-500 ease-in-out shadow-md ${
+                className={`mx-[10px] flex-[0_0_calc(33.333%-20px)] transition-all duration-500 ease-in-out ${
                   index === (currentIndex + 1) % carouselItems.length
-                    ? "z-10 scale-105 opacity-100"
+                    ? "z-10 scale-110 opacity-100"
                     : "scale-90 opacity-70"
                 } bg-[#fff] overflow-hidden`}
               >
@@ -108,7 +108,7 @@ export default function Component() {
               </div>
             ))}
           </div>
-          <div className="mt-5 flex justify-center">
+          <div className="mt-7 flex justify-center">
             {originalItems.map((_, index) => (
               <span
                 key={index}
