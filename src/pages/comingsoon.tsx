@@ -52,7 +52,7 @@ const ComingSoonPage: React.FC = () => {
           Coming Soon
         </h1>
         <p className="text-xl md:text-2xl mb-10 text-center text-gray-600">
-          We're preparing something extraordinary for you.
+          We&apos;re preparing something extraordinary for you.
         </p>
 
         <div className="flex justify-center space-x-8 mb-12">
@@ -105,7 +105,7 @@ const ComingSoonPage: React.FC = () => {
             <p className="text-2xl font-semibold text-green-600">
               Thank you for subscribing!
             </p>
-            <p className="text-gray-600">We'll keep you updated on our progress.</p>
+            <p className="text-gray-600">We&apos;ll keep you updated on our progress.</p>
           </div>
         )}
       </div>
