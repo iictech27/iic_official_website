@@ -13,12 +13,12 @@ const navigation = [
   { name: "Faculty", href: "/faculty" },
   { name: "Alumni", href: "/alumni" },
   { name: "Contact", href: "/contact" },
-  { name: "T-shirts", href: "/TShirtStore" },
+  { name: "Partners", href: "/partner" },
 ];
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 z-10 bg-white shadow dark:bg-black sm:bg-transparent sm:shadow-sm sm:backdrop-blur-md dark:sm:bg-transparent">
+    <div className="sticky top-0 z-10 bg-white shadow dark:bg-black sm:bg-transparent sm:shadow-sm sm:backdrop-blur-md dark:sm:bg-transparent" style={{marginTop:"-8rem"}}>
       <nav
         className="mx-auto flex max-w-6xl items-center justify-between p-6 sm:p-0 sm:py-3"
         aria-label="Global"
@@ -46,7 +46,7 @@ export default function Navbar() {
             </Link>
             </>))}
 
-          <Link href="https://forms.gle/WfAqhAt8pp89MdCd7"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Induction Attendance</button></Link>          
+          {/* <Link href="/comingsoon"><button type="button"  className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Hackathon</button></Link>           */}
         </div>
         <div className="hidden lg:flex lg:min-w-0 lg:justify-end">
           <ModeToggle />
