@@ -113,7 +113,7 @@ const Partner = () => {
         <p className="text-slate-700 text-lg md:text-2xl mb-8 md:mb-12">
           Fivian is a family-run confectionery brand known for its premium,
           handmade chocolates, stuffed dates, and milkshakes. Inspired by the
-          number "five," symbolizing family collaboration, Fivian delivers
+          number five, symbolizing family collaboration, Fivian delivers
           high-quality, artisanal sweets perfect for both personal and corporate
           needs.
         </p>
@@ -123,7 +123,7 @@ const Partner = () => {
       {/* Product Section */}
       <div className="text-center py-6 md:py-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-12">
-          Fivian's Unique Products
+          Fivian Unique Products
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 font-semibold">
           {products.map((product, index) => (
@@ -148,7 +148,7 @@ const Partner = () => {
 
       <div className="text-center mx-auto px-4 md:px-0">
         <p className="text-slate-700 text-lg md:text-2xl mb-8 md:mb-12">
-          Fivian’s dedication to quality and customizable treats makes them the
+          Fivians dedication to quality and customizable treats makes them the
           perfect partner for Skill De 2024. Their gourmet confections will
           elevate our event, offering participants a memorable experience of
           luxury and indulgence. We are excited to collaborate with Fivian to
