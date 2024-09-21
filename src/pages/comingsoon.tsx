@@ -126,6 +126,7 @@ const ComingSoonPage: React.FC = () => {
       </div>
     </div>
   );
-};
+}; 
+
 
 export default ComingSoonPage;
