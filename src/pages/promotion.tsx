@@ -8,7 +8,7 @@ interface CarouselItem {
   alt: string;
 }
 
-export default function Component() {
+export default function Promotion() {
   const carouselRef = useRef<HTMLDivElement>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const visibleCards = 3;
@@ -72,7 +72,7 @@ export default function Component() {
     <div className="bg-[#fff] font-sans">
       <div className="mx-auto max-w-[1200px] p-5">
         <div className="mb-[30px] text-center leading-relaxed">
-          <h3 className="mb-[10px] text-[1.3em] font-bold">
+          <h3 className="mb-[10px] text-[1.7em] font-bold">
             <span className="text-[#AE6642]">FIVIAN:</span> Elevating Skill De
             2024 with Gourmet Elegance and Indulgence
           </h3>
