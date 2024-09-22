@@ -69,14 +69,14 @@ export default function Promotion() {
   }, [currentIndex]);
 
   return (
-    <div className="bg-[#fff] font-sans">
+    <div className="bg-[#fff] font-sans  dark:bg-black">
       <div className="mx-auto max-w-[1200px] p-5">
         <div className="mb-[30px] text-center leading-relaxed">
-          <h3 className="mb-[10px] text-[1.7em] font-bold">
-            <span className="text-[#AE6642]">FIVIAN:</span> Elevating Skill De
-            2024 with Gourmet Elegance and Indulgence
+          <h3 className="mb-[10px] text-[1.7em] font-bold dark:text-white" >
+            <span className="text-[#AE6642]">FIVIAN:</span > <span>Elevating Skill De
+            2024 with Gourmet Elegance and Indulgence</span>
           </h3>
-          <p className="mb-[10px] text-[1em]">
+          <p className="mb-[10px] text-[1em]  dark:text-zinc-500">
             We are delighted to announce Fivian as our esteemed confectionery
             partner for Skill De 2024, bringing their signature blend of luxury
             and indulgence to this year&apos;s event. As IIC prepares to host an
