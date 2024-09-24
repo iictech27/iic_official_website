@@ -57,14 +57,14 @@ const CountdownTimer = () => {
           ))}
         </div>
         
-        <button
+      <Link href="/question"><button
           type="button"
-          onClick={() => alert("Questions Revealed")}
           className={`w-full text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-3 mt-4 transition-opacity duration-500 ${isCountdownComplete ? "opacity-100" : "opacity-50 cursor-not-allowed"}`}
           disabled={!isCountdownComplete} // Disable button until countdown is complete
         >
           Reveal Questions
         </button>
+        </Link>
       </div>
     </div>
   );
