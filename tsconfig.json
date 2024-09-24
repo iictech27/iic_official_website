@@ -20,6 +20,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/TShirtStore.tsx", "src/pages/comingsoon.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/TShirtStore.tsx", "src/pages/comingsoon.jsx", "src/pages/countdown.jsx"],
   "exclude": ["node_modules"]
 }
