@@ -312,8 +312,8 @@ const HackathonQuestions = () => {
                   >
                     <div className="flex basis-3/4 justify-start gap-x-14">
                       <p>
-                        <span className="font-semibold">Problem ID : </span>
-                        {question.problemId}
+                        <span className="font-semibold dark:text-black">Problem ID : </span>
+                        <span className="dark:text-black">{question.problemId}</span>
                       </p>
                       <h3 className="text-lg font-semibold text-gray-800">
                         {question.title}

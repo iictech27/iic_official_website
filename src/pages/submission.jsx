@@ -11,7 +11,7 @@ const hackathonRequirements = [
   {
     id: "02",
     description:
-      "Upload a video on YouTube explaining the working of your application/website/product.",
+      "Upload a video on YouTube explaining the working of your application/website/product. OR a PDF with Screenshots of your Project",
     details: {
       languages: ["Hindi", "English", "Bengali"],
       length: "5-6 minutes",
@@ -56,13 +56,15 @@ const hackathonRequirements = [
       "Submit code files, screenshots, and designs in a zip file at each stage via a Google form.",
   },
 ];
-const submission = () => {
+
+const Submission = () => {
   const [date, setDate] = useState({
-    stage1Start: new Date("2024-09-28T16:30:00").getTime(),
-    stage1End: new Date("2024-09-28T18:00:00").getTime(),
+    stage1Start: new Date("2024-09-28T15:00:00").getTime(),
+    stage1End: new Date("2024-09-28T18:30:00").getTime(),
     stage2Start: new Date("2024-09-30T06:30:00").getTime(),
-    stage2End: new Date("2024-09-30T10:15:00").getTime(),
+    stage2End: new Date("2024-09-30T11:00:00").getTime(),
   });
+
   const [isCountdownComplete, setCountdownComplete] = useState({
     stage1Start: false,
     stage1End: false,
@@ -71,20 +73,21 @@ const submission = () => {
   });
 
   useEffect(() => {
-    const presentDate = new Date().getTime();
-    if (date.stage1Start - presentDate < 0) {
-      setCountdownComplete({ ...isCountdownComplete, stage1Start: true });
-    }
-    if (date.stage2Start - presentDate < 0) {
-      setCountdownComplete({ ...isCountdownComplete, stage2Start: true });
-    }
-    if (date.stage1End - presentDate < 0) {
-      setCountdownComplete({ ...isCountdownComplete, stage1End: true });
-    }
-    if (date.stage2End - presentDate < 0) {
-      setCountdownComplete({ ...isCountdownComplete, stage2End: true });
-    }
-  }, []);
+    const updateCountdown = () => {
+      const presentDate = new Date().getTime();
+      setCountdownComplete((prev) => ({
+        stage1Start: date.stage1Start - presentDate < 0,
+        stage1End: date.stage1End - presentDate < 0,
+        stage2Start: date.stage2Start - presentDate < 0,
+        stage2End: date.stage2End - presentDate < 0,
+      }));
+    };
+
+    updateCountdown();
+    const intervalId = setInterval(updateCountdown, 1000);
+
+    return () => clearInterval(intervalId);
+  }, [date]);
 
   return (
     <section className="min-h-screen bg-gray-100 py-12 px-4 dark:bg-black sm:px-6 lg:px-8">
@@ -96,8 +99,8 @@ const submission = () => {
           SUBMISSION GUIDELINES:
         </h2>
         <ul className="mx-auto max-w-[90%] list-inside list-none space-y-5 text-gray-500 dark:text-gray-400">
-          {hackathonRequirements.map((guide, i) => (
-            <li key={i} className="text-xl">
+          {hackathonRequirements.map((guide) => (
+            <li key={guide.id} className="text-xl">
               <span className="mr-5 rounded-full p-2 font-semibold text-blue-500">
                 {guide.id}
               </span>
@@ -105,11 +108,12 @@ const submission = () => {
               {guide.details && (
                 <ul className="ml-16 mt-3 space-y-1">
                   <li>
-                    <span className="font-semibold">Languages : </span>Hindi,
-                    Bengali, English
+                    <span className="font-semibold">Languages: </span>
+                    {guide.details.languages.join(", ")}
                   </li>
                   <li>
-                    <span className="font-semibold">Length : </span>5-6 mins
+                    <span className="font-semibold">Length: </span>
+                    {guide.details.length}
                   </li>
                 </ul>
               )}
@@ -119,14 +123,14 @@ const submission = () => {
       </div>
       <div className="mx-auto mt-16 max-w-7xl text-center">
         <h2 className="mb-2 text-center text-2xl font-bold text-gray-900 dark:text-gray-300">
-          Stage 1 :
+          Stage 1:
         </h2>
         <span className="mb-4 block">
-          28th September - From 4:30 PM - 6:00 PM{" "}
+          28th September - From 3:15 PM - 6:30 PM
         </span>
         <Link
           href="https://forms.gle/GieJJZBYoL8DVdLv6"
-          className={isCountdownComplete.stage1End && "hidden"}
+          className={isCountdownComplete.stage1End ? "hidden" : ""}
         >
           <button
             className={`${submitBtn} ${
@@ -136,21 +140,24 @@ const submission = () => {
             }`}
             disabled={!isCountdownComplete.stage1Start}
           >
-            Submit Here
+            {isCountdownComplete.stage1End
+              ? "Submission Over"
+              : "Submit Here"}
           </button>
         </Link>
         {isCountdownComplete.stage1End && (
           <span className="text-red-600">Stage 1 Submission is Over !!</span>
         )}
+
         <h2 className="mt-5 mb-2 text-center text-2xl font-bold text-gray-900 dark:text-gray-300">
-          Stage 2 :
+          Stage 2:
         </h2>
         <span className="mb-4 block">
-          30th September - From 6:00 AM - 10:15 AM{" "}
+          30th September - From 6:00 AM - 11:00 AM
         </span>
         <Link
           href="https://forms.gle/x5qGu3ta3tpvtA447"
-          className={isCountdownComplete.stage2End && "hidden"}
+          className={isCountdownComplete.stage2End ? "hidden" : ""}
         >
           <button
             className={`${submitBtn} ${
@@ -160,7 +167,9 @@ const submission = () => {
             }`}
             disabled={!isCountdownComplete.stage2Start}
           >
-            Submit Here
+            {isCountdownComplete.stage2End
+              ? "Submission Over"
+              : "Submit Here"}
           </button>
         </Link>
         {isCountdownComplete.stage2End && (
@@ -171,4 +180,4 @@ const submission = () => {
   );
 };
 
-export default submission;
+export default Submission;
