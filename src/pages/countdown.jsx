@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CountdownTimer = () => {
   const [targetDate, setTargetDate] = useState(
-    new Date('2024-09-28T10:00:00').getTime() // Setting specific date and time
+    new Date('2024-09-28T10:15:00').getTime() // Setting specific date and time
   );
   const [timeLeft, setTimeLeft] = useState({});
   const [isCountdownComplete, setIsCountdownComplete] = useState(false); // State to track if countdown is complete
@@ -39,7 +39,7 @@ const CountdownTimer = () => {
     <div className="min-h-screen bg-gradient-to-br flex flex-col items-center justify-center p-4">
       <div className="bg-white bg-opacity-30 backdrop-filter backdrop-blur-md rounded-3xl shadow-xl p-8 w-full max-w-2xl border border-gray-200">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 text-center mb-8 dark:text-white">
-          Countdown Timer
+          Questions Revealing In....
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {["days", "hours", "minutes", "seconds"].map((unit) => (
@@ -56,15 +56,18 @@ const CountdownTimer = () => {
             </div>
           ))}
         </div>
-        
-      <Link href="/question"><button
-          type="button"
-          className={`w-full text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-3 mt-4 transition-opacity duration-500 ${isCountdownComplete ? "opacity-100" : "opacity-50 cursor-not-allowed"}`}
-          disabled={!isCountdownComplete} // Disable button until countdown is complete
-        >
-          Reveal Questions
-        </button>
-        </Link>
+
+        {/* Show button only after countdown is complete */}
+        {isCountdownComplete && (
+          <Link href="/question">
+            <button
+              type="button"
+              className="w-full text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-3 mt-4 transition-opacity duration-500 opacity-100"
+            >
+              Reveal Questions
+            </button>
+          </Link>
+        )}
       </div>
     </div>
   );
