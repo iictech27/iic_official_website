@@ -11,49 +11,53 @@ const hackathonRequirements = [
   {
     id: "02",
     description:
-      "Upload a video on YouTube explaining the working of your application/website/product. OR a PDF with Screenshots of your Project",
+      "Upload a video on YouTube explaining the working of your application/website/product.",
     details: {
       languages: ["Hindi", "English", "Bengali"],
-      length: "5-6 minutes",
+      length: "2-5 minutes",
     },
   },
   {
     id: "03",
-    description: "Any number of members can take part in the video.",
+    description: "Submit PDF with Screenshots of your Project.",
   },
   {
     id: "04",
+    description: "Any number of members can take part in the video.",
+  },
+  {
+    id: "05",
     description:
       "A proper README.md file should exist in your GitHub repository.",
   },
   {
-    id: "05",
-    description: "If you're building a website, deploy it if possible.",
-  },
-  {
     id: "06",
-    description:
-      "Maintain a document containing the list of all the resources used.",
+    description: "If you're building a website, deploy it if possible.",
   },
   {
     id: "07",
     description:
-      "Submit code in a zip file along with the resource document mentioned in point 6.",
+      "Maintain a document containing the list of all the resources used.",
   },
   {
     id: "08",
     description:
-      "Submit designs and screenshots of the platform at every stage with the code in the zip file.",
+      "Submit code in a zip file along with the resource document mentioned in point 6.",
   },
   {
     id: "09",
     description:
-      "The hackathon is 48 hours long, divided into two stages (8 hours and 40 hours).",
+      "Submit designs and screenshots of the platform at every stage with the code in the zip file.",
   },
   {
     id: "10",
     description:
-      "Submit code files, screenshots, and designs in a zip file at each stage via a Google form.",
+      "The hackathon is 48 hours long, divided into two stages (8 hours and 40 hours).",
+  },
+  {
+    id: "11",
+    description:
+      "Submit code files, screenshots, and designs in the github repo itself.",
   },
 ];
 
