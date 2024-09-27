@@ -80,7 +80,7 @@ const HackathonQuestions = () => {
               id: 7,
               problemId: "HT202",
               tier: "tier2",
-              title: "Nutrition Tracking App",
+              title: "Nutrition Tracking WebApp/MobileApp",
               description:
                 "Create a comprehensive app/website for tracking daily nutritional intake. Users should be able to log their meals, track calories, macronutrients, vitamins, and other dietary components. Include features for meal planning and personalized recipe recommendations based on users' dietary preferences and goals (e.g., weight loss, muscle gain, balanced diet). The app should also offer insights into nutritional habits over time, helping users make informed decisions about their health and well-being.",
             },
@@ -88,7 +88,7 @@ const HackathonQuestions = () => {
               id: 8,
               problemId: "HT203",
               tier: "tier2",
-              title: "Personal Finance Management App",
+              title: "Personal Finance Management Platform",
               description:
                 "Build a personal finance app/website to help users manage their expenses, create budgets, and achieve their savings goals. The app should allow users to categorize their spending (e.g., food, entertainment, rent), set budget limits for each category, and receive notifications when they approach or exceed their limits. Incorporate visual spending analytics (charts and graphs) and goal-tracking features that motivate users to save money or pay off debt. Include options to connect with bank accounts or import transaction data for automatic categorization.",
             },
