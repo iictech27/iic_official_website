@@ -130,7 +130,7 @@ const HackathonQuestions = () => {
               tier: "tier2",
               title: "Blockchain-based Voting System",
               description:
-                "Design a secure, decentralized voting platform utilizing blockchain technology to ensure transparency and verifiability of votes. The system should allow users to cast votes anonymously, while ensuring that each vote is counted accurately and cannot be tampered with. Consider incorporating cryptographic techniques to ensure the privacy of voters and the immutability of the voting records. This platform can be used for various applications, such as elections, organizational decision-making, or polls.",
+                "Design a secure, decentralized voting WebApp/MobileApp utilizing blockchain technology to ensure transparency and verifiability of votes. The system should allow users to cast votes anonymously, while ensuring that each vote is counted accurately and cannot be tampered with. Consider incorporating cryptographic techniques to ensure the privacy of voters and the immutability of the voting records. This WebApp/MobileApp can be used for various applications, such as elections, organizational decision-making, or polls.",
             },
             {
               id: 14,
@@ -138,7 +138,7 @@ const HackathonQuestions = () => {
               tier: "tier2",
               title: "Sustainability Tracker",
               description:
-                "Build a platform that helps users track their carbon footprint by monitoring their daily activities, such as transportation, energy usage, and waste management. The platform should provide personalized suggestions for reducing environmental impact, such as adopting eco-friendly habits or using renewable energy. Include features like progress tracking, comparisons with others, and rewards for achieving sustainability goals. The platform could also offer insights into global sustainability efforts and trends.",
+                "Build a WebApp/MobileApp that helps users track their carbon footprint by monitoring their daily activities, such as transportation, energy usage, and waste management. The WebApp/MobileApp should provide personalized suggestions for reducing environmental impact, such as adopting eco-friendly habits or using renewable energy. Include features like progress tracking, comparisons with others, and rewards for achieving sustainability goals. The WebApp/MobileApp could also offer insights into global sustainability efforts and trends.",
             },
             {
               id: 15,
@@ -154,7 +154,7 @@ const HackathonQuestions = () => {
               tier: "tier2",
               title: "Personalized Learning Pathways",
               description:
-                "Create an AI-powered educational platform that analyzes students' strengths, weaknesses, and goals to design customized learning paths. The platform should assess a student's progress and adjust the learning plan dynamically, providing personalized recommendations for resources, courses, and exercises. Consider adding features like progress tracking, performance reports, and tailored study materials that align with each student's preferred learning style.",
+                "Create an AI-powered educational WebApp/MobileApp that analyzes students' strengths, weaknesses, and goals to design customized learning paths. The WebApp/MobileApp should assess a student's progress and adjust the learning plan dynamically, providing personalized recommendations for resources, courses, and exercises. Consider adding features like progress tracking, performance reports, and tailored study materials that align with each student's preferred learning style.",
             },
             {
               id: 17,
@@ -162,7 +162,7 @@ const HackathonQuestions = () => {
               tier: "tier2",
               title: "Crowdsourced Product Testing",
               description:
-                "Develop a platform that allows startups to crowdsource product feedback and usability testing from real users. The platform should enable companies to post products, gather feedback from users, and generate detailed reports with analytics on user behavior, pain points, and suggestions for improvement. Include features for organizing beta tests, segmenting user feedback by demographics, and visualizing usability metrics to help startups iterate on their products more effectively.",
+                "Develop a WebApp/MobileApp that allows startups to crowdsource product feedback and usability testing from real users. The WebApp/MobileApp should enable companies to post products, gather feedback from users, and generate detailed reports with analytics on user behavior, pain points, and suggestions for improvement. Include features for organizing beta tests, segmenting user feedback by demographics, and visualizing usability metrics to help startups iterate on their products more effectively.",
             },
             {
               id: 18,
@@ -170,7 +170,7 @@ const HackathonQuestions = () => {
               tier: "tier2",
               title: "AI-based Job Recommendation System",
               description:
-                "Design a platform that uses machine learning to match users with jobs based on their skills, interests, and industry trends. The system should learn from user interactions to improve the relevance of job recommendations over time. Incorporate features like skill gap analysis, job market trends, and career growth suggestions to offer users a comprehensive tool for finding jobs that align with their professional development goals.",
+                "Design a WebApp/MobileApp that uses machine learning to match users with jobs based on their skills, interests, and industry trends. The system should learn from user interactions to improve the relevance of job recommendations over time. Incorporate features like skill gap analysis, job market trends, and career growth suggestions to offer users a comprehensive tool for finding jobs that align with their professional development goals.",
             },
             {
               id: 19,
@@ -178,15 +178,15 @@ const HackathonQuestions = () => {
               tier: "tier2",
               title: "Real-Time Disaster Alert System",
               description:
-                "Build a system that aggregates real-time data from multiple sources (such as weather stations, government agencies, and social media) to provide up-to-the-minute disaster alerts. The platform should inform users of imminent threats (e.g., earthquakes, floods, wildfires) and provide critical information such as evacuation routes, safety guidelines, and shelter locations. The system could include features like geo-targeted notifications and integration with local authorities for better disaster management.",
+                "Build a system that aggregates real-time data from multiple sources (such as weather stations, government agencies, and social media) to provide up-to-the-minute disaster alerts. The WebApp/MobileApp should inform users of imminent threats (e.g., earthquakes, floods, wildfires) and provide critical information such as evacuation routes, safety guidelines, and shelter locations. The system could include features like geo-targeted notifications and integration with local authorities for better disaster management.",
             },
             {
               id: 20,
               problemId: "HT215",
               tier: "tier2",
-              title: "Remote Skill Assessment Platform",
+              title: "Remote Skill Assessment WebApp/MobileApp",
               description:
-                "Create an online platform for conducting remote skill assessments with interactive tests and real-time feedback. The platform should be suitable for recruitment, certifications, and educational purposes. It should feature customizable tests, automated grading, and analytics to assess skill levels accurately. Consider adding real-time collaboration features, video interviews, and gamified elements to enhance the assessment process.",
+                "Create an online WebApp/MobileApp for conducting remote skill assessments with interactive tests and real-time feedback. The WebApp/MobileApp should be suitable for recruitment, certifications, and educational purposes. It should feature customizable tests, automated grading, and analytics to assess skill levels accurately. Consider adding real-time collaboration features, video interviews, and gamified elements to enhance the assessment process.",
             },
           ]);
         }, 1000);
