@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CountdownTimer = () => {
   const [targetDate, setTargetDate] = useState(
-    new Date("2024-10-22T22:00:00").getTime() // Setting specific date and time
+    new Date("2024-10-23T11:00:00").getTime() // Setting specific date and time
   );
   const [timeLeft, setTimeLeft] = useState({});
   const [isCountdownComplete, setIsCountdownComplete] = useState(false); // State to track if countdown is complete
@@ -45,7 +45,7 @@ const CountdownTimer = () => {
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br p-4">
       <div className="w-full max-w-4xl rounded-3xl border border-gray-200 bg-white bg-opacity-30 p-8 shadow-xl backdrop-blur-md backdrop-filter">
         <h1 className="mb-8 text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
-          Winners to be announced in....
+          Revealing Winners in....
         </h1>
         <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4">
           {["days", "hours", "minutes", "seconds"].map((unit) => (
@@ -76,14 +76,14 @@ const CountdownTimer = () => {
         )} */}
         {/* Show button only after countdown is complete */}
         {isCountdownComplete && (
-        <Link href="/winners">
-          <button
-            type="button"
-            className="mt-4 w-full rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-3 text-sm font-medium text-white opacity-100 transition-opacity duration-500 hover:bg-gradient-to-l focus:outline-none focus:ring-4 focus:ring-purple-200"
-          >
-            Reveal Winners
-          </button>
-        </Link>
+          <Link href="/winners">
+            <button
+              type="button"
+              className="mt-4 w-full rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-3 text-sm font-medium text-white opacity-100 transition-opacity duration-500 hover:bg-gradient-to-l focus:outline-none focus:ring-4 focus:ring-purple-200"
+            >
+              Reveal Winners
+            </button>
+          </Link>
         )}
       </div>
     </div>
