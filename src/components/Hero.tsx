@@ -12,11 +12,11 @@ export default function Hero() {
             className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
           >
             {/* <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" /> */}
-            Our
+            Check our
             <span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">
-              HACKATHON WINNERS
-            </span>{" "}
-            will be announced soon
+              HACKATHON&apos;s
+            </span>
+            result
             <span
               className="text-black group-hover:text-white dark:text-white dark:group-hover:text-black"
               aria-hidden="true"
