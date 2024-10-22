@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CountdownTimer = () => {
   const [targetDate, setTargetDate] = useState(
-    new Date('2024-09-28T10:15:00').getTime() // Setting specific date and time
+    new Date("2024-10-22T22:00:00").getTime() // Setting specific date and time
   );
   const [timeLeft, setTimeLeft] = useState({});
   const [isCountdownComplete, setIsCountdownComplete] = useState(false); // State to track if countdown is complete
@@ -21,14 +21,20 @@ const CountdownTimer = () => {
       }
 
       setTimeLeft({
-        days: String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, "0"),
+        days: String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(
+          2,
+          "0"
+        ),
         hours: String(
           Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
         ).padStart(2, "0"),
         minutes: String(
           Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
         ).padStart(2, "0"),
-        seconds: String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, "0"),
+        seconds: String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(
+          2,
+          "0"
+        ),
       });
     }, 1000);
 
@@ -36,21 +42,21 @@ const CountdownTimer = () => {
   }, [targetDate]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br flex flex-col items-center justify-center p-4">
-      <div className="bg-white bg-opacity-30 backdrop-filter backdrop-blur-md rounded-3xl shadow-xl p-8 w-full max-w-2xl border border-gray-200">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 text-center mb-8 dark:text-white">
-          Questions Revealing In....
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br p-4">
+      <div className="w-full max-w-4xl rounded-3xl border border-gray-200 bg-white bg-opacity-30 p-8 shadow-xl backdrop-blur-md backdrop-filter">
+        <h1 className="mb-8 text-center text-4xl font-bold text-gray-800 dark:text-white md:text-5xl">
+          Winners to be announced in....
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div className="mb-8 grid grid-cols-2 gap-4 md:grid-cols-4">
           {["days", "hours", "minutes", "seconds"].map((unit) => (
             <div
               key={unit}
-              className="flex flex-col items-center justify-center bg-white bg-opacity-50 shadow-lg rounded-2xl p-4 transition-all duration-300 transform hover:bg-opacity-60 hover:scale-105 backdrop-filter backdrop-blur-lg"
+              className="flex transform flex-col items-center justify-center rounded-2xl bg-white bg-opacity-50 p-4 shadow-lg backdrop-blur-lg backdrop-filter transition-all duration-300 hover:scale-105 hover:bg-opacity-60"
             >
-              <span className="text-5xl md:text-6xl font-bold text-blue-600 mb-2 animate-bounce">
+              <span className="mb-2 animate-bounce text-5xl font-bold text-blue-600 md:text-6xl">
                 {timeLeft[unit] || "00"}
               </span>
-              <span className="text-lg md:text-xl text-gray-600 capitalize">
+              <span className="text-lg capitalize text-gray-600 md:text-xl">
                 {unit}
               </span>
             </div>
@@ -58,15 +64,26 @@ const CountdownTimer = () => {
         </div>
 
         {/* Show button only after countdown is complete */}
-        {isCountdownComplete && (
+        {/* {isCountdownComplete && (
           <Link href="/question">
             <button
               type="button"
-              className="w-full text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-3 mt-4 transition-opacity duration-500 opacity-100"
+              className="mt-4 w-full rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-3 text-sm font-medium text-white opacity-100 transition-opacity duration-500 hover:bg-gradient-to-l focus:outline-none focus:ring-4 focus:ring-purple-200"
             >
-              Reveal Questions
+              Reveal Winners
             </button>
           </Link>
+        )} */}
+        {/* Show button only after countdown is complete */}
+        {isCountdownComplete && (
+        <Link href="/winners">
+          <button
+            type="button"
+            className="mt-4 w-full rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-3 text-sm font-medium text-white opacity-100 transition-opacity duration-500 hover:bg-gradient-to-l focus:outline-none focus:ring-4 focus:ring-purple-200"
+          >
+            Reveal Winners
+          </button>
+        </Link>
         )}
       </div>
     </div>
