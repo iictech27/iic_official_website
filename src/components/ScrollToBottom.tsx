@@ -12,7 +12,7 @@ type Props = React.ComponentPropsWithoutRef<"button"> & {
 };
 
 function scrollToBottom(smooth: boolean = false) {
-  const targetPosition = document.documentElement.scrollTop + 850;
+  const targetPosition = document.documentElement.scrollTop + 880;
   if (smooth) {
     window.scrollTo({
       top: targetPosition,
