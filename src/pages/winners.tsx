@@ -81,7 +81,9 @@ const Winners: NextPage = () => {
             className="relative z-[2] my-2 w-full max-w-md"
           >
             <WinnersCard
-              className={`${index !== 1 && "sm:mt-20"}`}
+              className={`${index !== 1 && "sm:mt-20"} ${
+                index === 1 && "shadow-2xl"
+              }`}
               {...winner}
             />
             <div
@@ -110,7 +112,28 @@ const Winners: NextPage = () => {
 export default Winners;
 
 const winnersData = [
-  { img: "3rd", team: "Team Gamma", leader: "Charlie", position: "3" },
-  { img: "first", team: "Team Alpha", leader: "Alice", position: "1" },
-  { img: "2nd", team: "Team Beta", leader: "Bob", position: "2" },
+  {
+    img: "3rd",
+    team: "Team Gamma",
+    leader: "Charlie",
+    position: "3",
+    members: ["Raja", "Asif", "Jane"],
+    projectName: "project1 (HT102)",
+  },
+  {
+    img: "first",
+    team: "Team Alpha",
+    leader: "Alice",
+    position: "1",
+    members: ["Raja", "Asif", "Jane"],
+    projectName: "project1 (HT102)",
+  },
+  {
+    img: "2nd",
+    team: "Team Beta",
+    leader: "Bob",
+    position: "2",
+    members: ["Raja", "Asif", "Jane"],
+    projectName: "project1 (HT102)",
+  },
 ];

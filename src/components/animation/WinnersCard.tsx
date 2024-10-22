@@ -3,7 +3,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-const WinnersCard = ({ className, position, team, leader, img }) => {
+const WinnersCard = ({
+  className,
+  position,
+  team,
+  leader,
+  projectName,
+  members,
+}) => {
+  console.log(members);
   return (
     <motion.div
       whileInView={{ opacity: 1, scale: 1 }}
@@ -58,7 +66,7 @@ const WinnersCard = ({ className, position, team, leader, img }) => {
           </h1>
         </motion.div>
 
-        {/* Leader Name */}
+        {/* Leader Name and members */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -66,8 +74,17 @@ const WinnersCard = ({ className, position, team, leader, img }) => {
           className="flex flex-grow flex-col items-center justify-center gap-y-1 text-xl"
         >
           <h2 className="font-medium text-gray-600">
-            <span className="font-semibold">Leader:</span> {leader}
+            <span className="font-semibold">Team Leader:</span> {leader}
           </h2>
+          <ul className="text-center text-gray-600">
+            <span className="text-lg font-semibold">Members :</span>
+            {members.map((m: string, index: number) => (
+              <li key={index} className="text-base">
+                {m}
+              </li>
+            ))}
+            <li></li>
+          </ul>
         </motion.div>
 
         {/* Project Name */}
@@ -78,7 +95,7 @@ const WinnersCard = ({ className, position, team, leader, img }) => {
           className="flex flex-grow flex-col items-center justify-center gap-y-1 text-xl"
         >
           <h2 className="font-medium text-gray-600">
-            <span className="font-semibold">Project:</span> project 1 (HT103)
+            <span className="font-semibold">Project:</span> {projectName}
           </h2>
         </motion.div>
 
