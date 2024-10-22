@@ -10,6 +10,8 @@ const WinnersCard = ({
   leader,
   projectName,
   members,
+  github,
+  live,
 }) => {
   console.log(members);
   return (
@@ -17,7 +19,7 @@ const WinnersCard = ({
       whileInView={{ opacity: 1, scale: 1 }}
       initial={{ opacity: 0, scale: 0.95 }}
       transition={{ duration: 0.6 }}
-      className={`relative flex h-[32rem] w-full justify-center bg-white/50 shadow-lg backdrop-blur-3xl ${className} overflow-hidden rounded-xl`}
+      className={`relative flex h-[34rem] w-full justify-center bg-white/50 shadow-lg backdrop-blur-3xl ${className} overflow-hidden rounded-xl`}
     >
       <svg
         className="absolute top-0 left-0 -z-10 h-36 w-full"
@@ -71,10 +73,11 @@ const WinnersCard = ({
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 1.8 }} // Delay for leader name
-          className="flex flex-grow flex-col items-center justify-center gap-y-1 text-xl"
+          className="flex flex-grow flex-col items-center justify-center gap-y-1 text-lg"
         >
-          <h2 className="font-medium text-gray-600">
-            <span className="font-semibold">Team Leader:</span> {leader}
+          <h2 className="text-center font-medium text-gray-600">
+            <span className="text-lg font-semibold">Team Leader:</span>{" "}
+            <p className="text-xl">{leader}</p>
           </h2>
           <ul className="text-center text-gray-600">
             <span className="text-lg font-semibold">Members :</span>
@@ -106,14 +109,16 @@ const WinnersCard = ({
           transition={{ duration: 0.4, delay: 2.8 }} // Delay for view link
           className="flex flex-grow flex-col items-center justify-center gap-y-1 text-lg"
         >
+          {live && (
+            <a
+              href={live}
+              className="font-semibold text-blue-600 transition duration-300 hover:text-blue-800"
+            >
+              View Project
+            </a>
+          )}
           <a
-            href="#"
-            className="font-semibold text-blue-600 transition duration-300 hover:text-blue-800"
-          >
-            View Project
-          </a>
-          <a
-            href="#"
+            href={github}
             className="text-gray-600 transition duration-300 hover:text-gray-800"
           >
             GitHub Link
