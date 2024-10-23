@@ -76,7 +76,7 @@ const CountdownTimer = () => {
         )} */}
         {/* Show button only after countdown is complete */}
         {isCountdownComplete && (
-          <Link href="/winners">
+          <Link href="/skillde-hackathon-winners-page">
             <button
               type="button"
               className="mt-4 w-full rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-3 text-sm font-medium text-white opacity-100 transition-opacity duration-500 hover:bg-gradient-to-l focus:outline-none focus:ring-4 focus:ring-purple-200"
@@ -91,3 +91,4 @@ const CountdownTimer = () => {
 };
 
 export default CountdownTimer;
+//skillde-hackathon-winners-page
