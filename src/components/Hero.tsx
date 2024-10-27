@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 import FadeIn from "@/components/animation/FadeIn";
-import { HultPrizeLogo } from "@/pages/hultprize";
+import Link from "next/link"; 
 
 export default function Hero() {
   return (
     <div>
       <div className="mb-8 mt-16 sm:flex sm:justify-center">
         <div className="relative w-auto overflow-hidden rounded-full py-1.5 text-sm leading-6 ring-1 ring-zinc-900/10 transition-colors duration-150 ease-in-out hover:ring-zinc-900/20 dark:ring-zinc-600/60 dark:hover:ring-zinc-400/80 sm:px-4">
-          <a
+        <a
             href="/countdown"
             className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
           >
@@ -24,16 +24,7 @@ export default function Hero() {
               &#8599;
             </span>
           </a>
-          {/* <a
-            href="/hultprize"
-            className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
-          >
-            <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" />
-            2024
-          </a> */}
         </div>
-
-        {/* Temporarily comennted Tshirt is now highlighted */}
 
         <span className="relative right-1 hidden h-5 w-5 animate-bounce items-center justify-center sm:flex">
           <span className="absolute inline-flex h-full w-full animate-ping rounded bg-[#E0097E] opacity-75"></span>
@@ -82,6 +73,12 @@ export default function Hero() {
           </a>
         </FadeIn>
       </div>
+
+      <Link href="/feedback">
+        <button className="fixed bottom-8 right-6 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-3 text-white shadow-lg transition-transform transform hover:scale-105 focus:outline-none">
+          Feedback
+        </button>
+      </Link>
     </div>
   );
 }
