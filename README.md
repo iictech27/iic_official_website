@@ -5,6 +5,8 @@
 
 ## Features
 
+- Merchandise section
+- Hackathon section
 - Light/Dark mode toggle
 - Image Gallery
 - Mobile Responsive Nav
@@ -18,31 +20,37 @@
 - [`framer-motion`](https://www.framer.com/motion/) - Production-ready declarative animations.
 - [`lightbox.js-react`](https://www.getlightboxjs.com/) - The all-in-one React lightbox.
 
+## 📂 Project Structure
+
+Below is a visual representation of the project's file structure using a dependency graph:
+
+![Dependency Graph](./dependency-graph.svg)
 
 ## Development
 
 1. To install the needed dependencies run
 
    ```bash
-   yarn install
+   npm install
    ```
 
 2. To spin up dev server run
 
    ```bash
-   yarn dev
+   npm run dev
    ```
    
 3. To build this project run
 
    ```bash
-   yarn build
+   npm build
    ```
 
 ## Authors
 
-- Arghya Ghosh - [@uiuxarghya](https://www.github.com/uiuxarghya)
-- Aditya Seth - [@AdityaSeth777](https://www.github.com/AdityaSeth777)
+- Ashhar Ali Ahmed - [@theashhar](https://www.github.com/theashhar)
+- Kumar Aditya - [@Kumaraditya18027](https://www.github.com/Kumaraditya18027)
+- Utsav Tiwari - [@utsav306](https://www.github.com/utsav306)
 
 
 ## License
