@@ -243,6 +243,31 @@ const sliderStyle = `
   .slick-slide > div{
     margin : 10px 15px;
   }
+
+  .slick-slider button{
+    width:32px;
+    height:32px;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .slick-slider button::before{
+    background-color:black;
+    border-radius:100%;
+  }
+
+  .slick-slider button:hover{
+    background-color:transparent;
+  }
+
+  .slick-slider .slick-prev{
+    margin-left:-5px;
+  }
+
+  .slick-slider .slick-next{
+    margin-right:-5px;
+  }
 `;
 
 if (typeof window !== "undefined") {
