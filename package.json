@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,scss,md,mdx}"
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,css,scss,md,mdx}",
+    "depcruise": "depcruise src --config .dependency-cruiser.js --output-type dot | dot -Tsvg > dependency-graph.svg"
+
   },
   "dependencies": {
     "@headlessui/react": "^1.7.11",
@@ -32,6 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "dependency-cruiser": "^16.6.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
     "prettier-plugin-tailwindcss": "^0.2.3",
