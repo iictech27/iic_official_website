@@ -104,7 +104,10 @@ const NewMembers: NextPage = () => {
       <div className="slider-container" style={styles.sliderContainer}>
         <Slider {...settings}>
           {items.map((item) => (
-            <div key={item.id} style={styles.carouselItem}>
+            <div
+              key={item.id}
+              className="my-0 mx-3 flex flex-col items-center justify-center transition-transform duration-[0.3s] ease-in-out"
+            >
               <div className="mx-auto aspect-square h-48 w-48 overflow-hidden rounded-full border border-zinc-200 shadow-md transition-all duration-150 ease-in-out hover:scale-110 hover:shadow-xl active:scale-95 dark:border-zinc-800">
                 <Image
                   alt={item.name}
@@ -194,14 +197,6 @@ const styles = {
     marginLeft: "auto",
     marginRight: "auto",
     marginTop: "4rem",
-  },
-  carouselItem: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    transition: "transform 0.3s ease-in-out",
-    margin: "0 10px",
   },
   imageContainer: {
     borderRadius: "100%",
