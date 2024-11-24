@@ -166,26 +166,36 @@ const items = [
   },
   {
     id: 7,
-    name: "Raunak Ghosh",
-    imageUrl: "/images/newmembers/Raunak Ghosh.jpg",
+    name: "Pranjal Mishra",
+    imageUrl: "/images/newmembers/Pranjal Mishra.jpg",
   },
   {
     id: 8,
+    name: "Ranik Ghosh",
+    imageUrl: "/images/newmembers/Raunak Ghosh.jpg",
+  },
+  {
+    id: 9,
     name: "Romit Ghosh Dastidar",
     imageUrl: "/images/newmembers/Romit Ghosh Dastidar.jpeg",
   },
   {
-    id: 9,
+    id: 10,
     name: "Rudra Arjun",
     imageUrl: "/images/newmembers/Rudra Arjun.jpg",
   },
   {
-    id: 10,
+    id: 11,
+    name: "Ritika Jaiswal",
+    imageUrl: "/images/newmembers/Ritika Jaiswal.jpg",
+  },
+  {
+    id: 12,
     name: "Shruti Karna",
     imageUrl: "/images/newmembers/Shruti Karna.jpeg",
   },
   {
-    id: 11,
+    id: 13,
     name: "Sumit Kumar",
     imageUrl: "/images/newmembers/Sumit Kumar.jpg",
   },
