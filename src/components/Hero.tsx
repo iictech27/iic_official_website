@@ -8,15 +8,15 @@ export default function Hero() {
       <div className="mb-8 mt-16 sm:flex sm:justify-center">
         <div className="relative w-auto overflow-hidden rounded-full py-1.5 text-sm leading-6 ring-1 ring-zinc-900/10 transition-colors duration-150 ease-in-out hover:ring-zinc-900/20 dark:ring-zinc-600/60 dark:hover:ring-zinc-400/80 sm:px-4">
           <a
-            href="/newmembers"
+            href="/startupcrafter"
             className="flex justify-center gap-x-2 font-medium text-[#1d1e1c] dark:text-white sm:text-lg"
           >
             {/* <HultPrizeLogo className="h-5 text-[#1d1e1c] dark:text-white sm:h-6" /> */}
-            Check
+            Download
             <span className="bg-gradient-to-r from-violet-600 to-rose-500 bg-clip-text text-transparent">
-              Selected Candidates
+              Startup Crafter
             </span>
-            for IIC Tech Wing
+            App here
             <span
               className="text-black group-hover:text-white dark:text-white dark:group-hover:text-black"
               aria-hidden="true"
