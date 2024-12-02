@@ -54,7 +54,7 @@ const ContactPage: NextPage = () => {
                     href="tel:+919903342634"
                     className="leading-relaxed text-blue-500"
                   >
-                    +91 99033 42634
+                    +91 73526 27157
                   </a>
                 </div>
               </div>
