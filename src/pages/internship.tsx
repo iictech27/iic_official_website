@@ -41,7 +41,7 @@ const internships = [
     salary: "₹8,000 - ₹10,000 per month",
     experience: "Freshers",
     jd: "Perfectplus is seeking a creative and enthusiastic Junior Graphic Designer to join our team. This role is ideal for freshers eager to gain hands-on experience.",
-    formLink: "https://wa.me/918100004934?text=Hi%2C%20I%27m%20interested%20in%20the%20Junior%20Graphic%20Designer%20role%2C%20referred%20by%20Ashhar%20Ali%20Ahmed",
+    formLink: "https://wa.me/918981937193?text=Hi%2C%20I%27m%20interested%20in%20the%20Junior%20Graphic%20Designer%20role%2C%20referred%20by%20Ashhar%20Ali%20Ahmed",
     referral: "Ashhar Ali Ahmed",
   },
   {
@@ -53,7 +53,7 @@ const internships = [
     salary: "₹15,000 - ₹20,000 per month",
     experience: "Freshers",
     jd: "Perfectplus is seeking a creative and experienced Graphic Designer to join the team. The candidate will work closely with our design team to create compelling visuals.",
-    formLink: "https://wa.me/918100004934?text=Hi%2C%20I%27m%20interested%20in%20the%20Senior%20Graphic%20Designer%20role%2C%20referred%20by%20Ashhar%20Ali%20Ahmed",
+    formLink: "https://wa.me/918981937193?text=Hi%2C%20I%27m%20interested%20in%20the%20Senior%20Graphic%20Designer%20role%2C%20referred%20by%20Ashhar%20Ali%20Ahmed",
     referral: "Ashhar Ali Ahmed",
   },
   {
@@ -65,7 +65,7 @@ const internships = [
     salary: "₹8,000 - ₹12,000 per month",
     experience: "Freshers",
     jd: "Perfectplus is looking for a highly organized Coordinator to manage tasks, track updates, and implement agile methodologies. The ideal candidate will ensure smooth workflow and efficient communication within the team.",
-    formLink: "https://wa.me/918100004934?text=Hi%2C%20I%27m%20interested%20in%20the%20Coordinator%20role%2C%20referred%20by%20Ashhar%20Ali%20Ahmed",
+    formLink: "https://wa.me/918981937193?text=Hi%2C%20I%27m%20interested%20in%20the%20Coordinator%20role%2C%20referred%20by%20Ashhar%20Ali%20Ahmed",
     referral: "Ashhar Ali Ahmed",
   }
 ];
