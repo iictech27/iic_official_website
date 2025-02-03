@@ -4,8 +4,8 @@ function Card({ children, className }: { children: React.ReactNode; className?: 
   return <div className={`bg-white shadow-lg p-4 rounded-lg h-full flex flex-col justify-between ${className}`}>{children}</div>;
 }
 
-function CardContent({ children }: { children: React.ReactNode }) {
-  return <div className="flex flex-col flex-grow">{children}</div>;
+function CardContent({ children, className }: { children: React.ReactNode; className?: string }) {
+  return <div className={`flex flex-col flex-grow ${className}`}>{children}</div>;
 }
 
 function Button({ children, className, href }: { children: React.ReactNode; className?: string; href?: string }) {
@@ -27,7 +27,7 @@ const internships = [
   {
     id: 1,
     company: "Perfectplus",
-    logo: "/images/internship/PP.jpg", // Local logo path
+    logo: "/images/internship/PP.jpg",
     role: "Junior Graphic Designer",
     location: "Salt Lake City",
     salary: "₹8,000 - ₹10,000 per month",
@@ -39,7 +39,7 @@ const internships = [
   {
     id: 2,
     company: "Perfectplus",
-    logo: "/images/internship/PP.jpg", // Local logo path
+    logo: "/images/internship/PP.jpg",
     role: "Senior Graphic Designer",
     location: "Salt Lake City",
     salary: "₹15,000 - ₹20,000 per month",
@@ -51,7 +51,7 @@ const internships = [
   {
     id: 3,
     company: "Perfectplus",
-    logo: "/images/internship/PP.jpg", // Local logo path
+    logo: "/images/internship/PP.jpg",
     role: "Coordinator",
     location: "Salt Lake City",
     salary: "₹8,000 - ₹12,000 per month",
