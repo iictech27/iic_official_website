@@ -332,5 +332,12 @@ const teamlist = [
     image: "/images/team/heads-coheads/Rajgopal Kumar.png",
     linkedIn: "rajgopal-kumar",
   },
+  {
+    id: 28,
+    name: "Soumyata Sarkar",
+    role: "Head of UI/UX wing",
+    image: "/images/team/heads-coheads/soumyata_sarkar.jpg",
+    linkedIn: "soumyata-sarkar-005793228",
+  },
 ];
 
